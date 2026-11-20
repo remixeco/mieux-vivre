@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1333D736F155AA2A9A5AEB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F46F653BBE4C71DF4E5FB3 /* Assets.xcassets */; };
+		B554690E83A89962FB4117C0 /* MieuxVivreMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C2B2EEABB903CF4B9A2B14 /* MieuxVivreMacApp.swift */; };
+		B68D0AD5ACA7E58F981213DF /* Web in Resources */ = {isa = PBXBuildFile; fileRef = 4DDD4FB04E1BCC2661BEE7A7 /* Web */; };
+		CAB7E10C54BC078D7BE54A0C /* Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DEA5CAB206CE50138AFF48 /* Migration.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4DDD4FB04E1BCC2661BEE7A7 /* Web */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Web; path = ../MieuxVivre/Web; sourceTree = SOURCE_ROOT; };
+		55F46F653BBE4C71DF4E5FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66C2B2EEABB903CF4B9A2B14 /* MieuxVivreMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MieuxVivreMacApp.swift; sourceTree = "<group>"; };
+		94DEA5CAB206CE50138AFF48 /* Migration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Migration.swift; sourceTree = "<group>"; };
+		EECD4A75752D9775F947B301 /* MieuxVivreMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MieuxVivreMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3E6842FEB699AF4FD34E6C02 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				66C2B2EEABB903CF4B9A2B14 /* MieuxVivreMacApp.swift */,
+				94DEA5CAB206CE50138AFF48 /* Migration.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		69E373F5FE9B66D4F2CDE05E = {
+			isa = PBXGroup;
+			children = (
+				FCED3FAB871A404BFD31D1DC /* mieux-vivre */,
+				D25BC6DF02DBD28BDDD63218 /* Resources */,
+				3E6842FEB699AF4FD34E6C02 /* Sources */,
+				F83C1DA1964B82D9F0768111 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C59DAACDAE5CFE0E101CB189 /* MieuxVivre */ = {
+			isa = PBXGroup;
+			children = (
+				4DDD4FB04E1BCC2661BEE7A7 /* Web */,
+			);
+			path = MieuxVivre;
+			sourceTree = "<group>";
+		};
+		D25BC6DF02DBD28BDDD63218 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55F46F653BBE4C71DF4E5FB3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F83C1DA1964B82D9F0768111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EECD4A75752D9775F947B301 /* MieuxVivreMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCED3FAB871A404BFD31D1DC /* mieux-vivre */ = {
+			isa = PBXGroup;
+			children = (
+				C59DAACDAE5CFE0E101CB189 /* MieuxVivre */,
+			);
+			name = "mieux-vivre";
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82C916A35E93CBCE139F4B2B /* MieuxVivreMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E12E2BD2B39577D5DC6398D3 /* Build configuration list for PBXNativeTarget "MieuxVivreMac" */;
+			buildPhases = (
+				151C48D67AE2F01D5F1E9565 /* Sources */,
+				5171BCA330A54C62A4241ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MieuxVivreMac;
+			packageProductDependencies = (
+			);
+			productName = MieuxVivreMac;
+			productReference = EECD4A75752D9775F947B301 /* MieuxVivreMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C0A5724ECB97AF1E317C649 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					82C916A35E93CBCE139F4B2B = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 73F9A99EB3A77BA1B08EC958 /* Build configuration list for PBXProject "MieuxVivreMac" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 69E373F5FE9B66D4F2CDE05E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F83C1DA1964B82D9F0768111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82C916A35E93CBCE139F4B2B /* MieuxVivreMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5171BCA330A54C62A4241ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1333D736F155AA2A9A5AEB0 /* Assets.xcassets in Resources */,
+				B68D0AD5ACA7E58F981213DF /* Web in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		151C48D67AE2F01D5F1E9565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B554690E83A89962FB4117C0 /* MieuxVivreMacApp.swift in Sources */,
+				CAB7E10C54BC078D7BE54A0C /* Migration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8B84AB91C089F19999458059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.remi.mieuxvivre.mac;
+				PRODUCT_NAME = "Mieux vivre";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AE06507838896B7F9C191EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.remi.mieuxvivre.mac;
+				PRODUCT_NAME = "Mieux vivre";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C964C990B276096C0FB9DBA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 17;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 4.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F2203807A07D7AE8F954B57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 17;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 4.9;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73F9A99EB3A77BA1B08EC958 /* Build configuration list for PBXProject "MieuxVivreMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2203807A07D7AE8F954B57B /* Debug */,
+				C964C990B276096C0FB9DBA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E12E2BD2B39577D5DC6398D3 /* Build configuration list for PBXNativeTarget "MieuxVivreMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE06507838896B7F9C191EE9 /* Debug */,
+				8B84AB91C089F19999458059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C0A5724ECB97AF1E317C649 /* Project object */;
+}

@@ -1,0 +1,189 @@
+.carnet-unifie {
+  --carnet-gutter: clamp(16px, 4vw, 64px);
+}
+
+.carnet-unifie :is(.topbar, .layout) {
+  padding-left: max(var(--carnet-gutter), calc(8px + env(safe-area-inset-left)));
+  padding-right: max(var(--carnet-gutter), calc(8px + env(safe-area-inset-right)));
+}
+
+.carnet-unifie .topbar {
+  height: auto;
+  min-height: calc(64px + env(safe-area-inset-top));
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: 4px;
+}
+
+.carnet-unifie > .layout {
+  padding-bottom: calc(64px + env(safe-area-inset-bottom));
+}
+
+.carnet-unifie .sidebar {
+  top: calc(24px + env(safe-area-inset-top));
+}
+
+.carnet-unifie .skip-link {
+  left: calc(12px + env(safe-area-inset-left));
+}
+
+.carnet-unifie .skip-link:focus {
+  top: calc(12px + env(safe-area-inset-top));
+}
+
+.carnet-unifie dialog {
+  max-height: calc(100dvh - 2rem - 2 * max(env(safe-area-inset-top), env(safe-area-inset-bottom)));
+}
+
+.carnet-unifie .toast {
+  right: calc(22px + env(safe-area-inset-right));
+  bottom: calc(28px + env(safe-area-inset-bottom));
+}
+
+.carnet-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  margin: 0 0 8px;
+  padding: 0 8px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--brand);
+  font-size: .875rem;
+  font-weight: 600;
+}
+
+.carnet-back::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-left: 1.5px solid;
+  border-bottom: 1.5px solid;
+  transform: rotate(45deg);
+}
+
+.carnet-back:hover {
+  background: var(--s-soft);
+}
+
+.carnet-program-link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px 24px;
+  margin: 16px 0;
+  padding: 16px 20px;
+}
+
+.carnet-program-link h2,
+.carnet-program-link p {
+  margin: 0;
+}
+
+.carnet-program-link p {
+  margin-top: 4px;
+  color: var(--muted);
+}
+
+.carnet-unifie > .mobile-nav {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 4px;
+  padding: 4px calc(8px + env(safe-area-inset-right)) calc(4px + env(safe-area-inset-bottom)) calc(8px + env(safe-area-inset-left));
+  background: var(--paper);
+  border-top: 1px solid var(--outline);
+}
+
+.carnet-unifie > .mobile-nav :where(.mobile-tab) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  min-height: 52px;
+  min-width: 0;
+  padding: 4px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--muted);
+  font-size: .8125rem;
+  font-weight: 550;
+  line-height: 1.1;
+}
+
+.carnet-unifie > .mobile-nav .glyph { width: 18px; height: 18px; }
+.carnet-unifie > .mobile-nav .mobile-tab > span {
+  max-width: 100%;
+  font-size: inherit;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 730px) {
+  .carnet-unifie {
+    --carnet-gutter: 16px;
+  }
+
+  .carnet-unifie .topbar {
+    min-height: calc(56px + env(safe-area-inset-top));
+  }
+
+  .carnet-unifie > .layout {
+    padding-bottom: calc(88px + env(safe-area-inset-bottom));
+  }
+
+  .carnet-unifie > .mobile-nav { display: grid; }
+
+  .carnet-unifie .toast {
+    left: calc(10px + env(safe-area-inset-left));
+    right: calc(10px + env(safe-area-inset-right));
+    bottom: calc(72px + env(safe-area-inset-bottom));
+  }
+}
+
+[data-carnet-native] {
+  overflow: hidden;
+}
+
+[data-carnet-native] .carnet-unifie {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  display: grid;
+  grid-template: auto minmax(0, 1fr) auto / minmax(0, 1fr);
+  height: 100dvh;
+  overflow: clip;
+}
+
+[data-carnet-native] .carnet-unifie > .layout {
+  display: block;
+  width: 100%;
+  padding-bottom: 24px;
+  overflow-y: auto;
+  overscroll-behavior-y: none;
+  scroll-padding-block: 12px;
+}
+
+[data-carnet-native] .carnet-unifie .sidebar {
+  display: none;
+}
+
+[data-carnet-native] .carnet-unifie > .mobile-nav {
+  position: static;
+  display: grid;
+}
+
+[data-carnet-native] .carnet-unifie .toast {
+  bottom: calc(72px + env(safe-area-inset-bottom));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carnet-back,
+  .carnet-unifie :is(.nav-item, .mobile-tab) {
+    transition: none;
+  }
+}

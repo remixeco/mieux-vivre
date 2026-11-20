@@ -1,0 +1,158 @@
+#sport-carnet {
+  color: var(--ink);
+  color-scheme: var(--surface-color-scheme, dark);
+}
+
+#sport-carnet .panel {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+#sport-carnet #dayTitle {
+  margin-bottom: 4px;
+  font-family: var(--carnet-display);
+  font-size: 1.375rem;
+  font-weight: 600;
+  letter-spacing: -.02em;
+}
+
+#sport-carnet :is(.hint, .entry-state) {
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: .875rem;
+}
+
+#sport-carnet .entry-state:empty { margin: 0; }
+#sport-carnet fieldset { min-width: 0; margin: 24px 0; padding: 0; border: 0; }
+#sport-carnet fieldset:not(:last-of-type) { padding-bottom: 24px; border-bottom: 1px solid var(--outline); }
+#sport-carnet legend { padding: 0; margin-bottom: 12px; font-weight: 650; }
+#sport-carnet legend .hint { font-weight: 400; }
+#sport-carnet label { display: block; font-weight: 600; }
+#sport-carnet .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 24px; }
+#sport-carnet .choices { display: flex; flex-wrap: wrap; gap: 8px; }
+#sport-carnet .choice {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid var(--field-line);
+  border-radius: 8px;
+  font-size: .875rem;
+  font-weight: 550;
+  line-height: 1.35;
+  cursor: pointer;
+}
+
+#sport-carnet .choice:has(input:checked) { border-color: var(--field-line); background: var(--copper); color: var(--on-brand); }
+#sport-carnet .choice:focus-within { outline: 2px solid var(--focus); outline-offset: 3px; }
+#sport-carnet input[type=radio] { width: 20px; height: 20px; margin: 0; flex: none; accent-color: var(--control-accent, var(--copper)); }
+#sport-carnet .choice:has(input:checked) input { accent-color: var(--on-brand); }
+#sport-carnet :is(input[type=text], input[type=number], select, textarea) {
+  width: 100%;
+  min-width: 0;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid var(--field-line);
+  border-radius: 8px;
+  background: var(--soft-2);
+  color: var(--ink);
+  font-size: 1rem;
+}
+
+#sport-carnet :is(input, textarea)::placeholder { color: var(--muted); opacity: 1; }
+#sport-carnet textarea { resize: vertical; min-height: 80px; }
+#sport-carnet .session-rating {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0 8px;
+  min-width: 0;
+}
+#sport-carnet .session-rating .range-top { grid-column: 1 / -1; align-items: baseline; flex-wrap: wrap; gap: 4px 12px; margin-bottom: 4px; }
+#sport-carnet .session-rating .range-top label { color: var(--muted); font-weight: 500; }
+#sport-carnet .session-rating output {
+  inline-size: auto;
+  max-width: 100%;
+  padding: 0;
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--carnet-display);
+  font-size: 1.125rem;
+  font-weight: 650;
+}
+#sport-carnet .session-rating input { margin: 0; min-height: 44px; accent-color: var(--control-accent, var(--copper)); }
+#sport-carnet .session-rating button { border: 0; color: var(--muted); text-decoration: underline; text-underline-offset: 3px; }
+#sport-carnet .session-rating input[data-recorded=false] { accent-color: var(--muted); }
+#sport-carnet .session-activity {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) 44px;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--outline);
+}
+
+#sport-carnet .session-activity:has(input[type=checkbox]:checked) {
+  grid-template-columns: 44px minmax(0, 1fr) minmax(80px, 5rem) 44px;
+}
+#sport-carnet .session-activity label[hidden], #sport-carnet .session-activity[hidden] { display: none; }
+#sport-carnet .session-activity-check {
+  display: grid;
+  place-items: center;
+  min-height: 44px;
+  cursor: pointer;
+}
+#sport-carnet .session-activity-check input { width: 20px; height: 20px; margin: 0; accent-color: var(--control-accent, var(--copper)); }
+#sport-carnet .session-activity-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+#sport-carnet .session-activity-actions button { color: var(--brand); }
+#sport-carnet .grid > .field > label { font-size: .875rem; }
+#sport-carnet .session-activity [data-remove-activity] { padding: 0; font-size: 1.25rem; }
+#sport-carnet #session-movements { margin-top: 8px; }
+#sport-carnet #backup-options { margin-top: 24px; padding-top: 8px; border-top: 1px solid var(--outline); }
+#sport-carnet .reaction { margin-top: 24px; }
+#sport-carnet .reaction select { margin-top: 8px; }
+#sport-carnet #extra { margin-top: 24px; padding-top: 8px; border-top: 1px solid var(--outline); }
+#sport-carnet #extra > summary { color: var(--brand); }
+#sport-carnet summary { min-height: 44px; align-content: center; cursor: pointer; font-weight: 600; }
+#sport-carnet .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 20px; }
+#sport-carnet button {
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid var(--field-line);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--ink);
+  font-weight: 600;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#sport-carnet button:active { background: var(--s-soft); }
+#sport-carnet .primary { background: var(--copper); color: var(--on-brand); border-color: var(--field-line); }
+#sport-carnet .primary:active { background: #ffdac0; }
+#sport-carnet #remove { color: var(--danger); border-color: transparent; }
+#sport-carnet .status { margin: 16px 0 0; font-size: .875rem; font-weight: 600; overflow-wrap: anywhere; }
+#sport-carnet .status:empty { margin: 0; }
+#sport-carnet .status[data-error=true] { color: var(--danger); }
+
+@media (hover: hover) and (pointer: fine) {
+  #sport-carnet button:hover { background: var(--s-soft); }
+  #sport-carnet .primary:hover { background: #ffdac0; }
+  #sport-carnet .choice:not(:has(input:checked)):hover { background: var(--soft-2); }
+}
+
+@media (max-width: 600px) {
+  #sport-carnet .grid { grid-template-columns: minmax(0, 1fr); }
+  #sport-carnet .session-activity:has(input[type=checkbox]:checked) {
+    grid-template-columns: 44px minmax(0, 1fr) 44px;
+  }
+  #sport-carnet .session-activity-check { grid-column: 1; grid-row: 1; }
+  #sport-carnet .session-activity-name { grid-column: 2; grid-row: 1; }
+  #sport-carnet .session-activity-duration { grid-column: 2; grid-row: 2; width: min(100%, 9rem); }
+  #sport-carnet .session-activity [data-remove-activity] { grid-column: 3; grid-row: 1; }
+  #sport-carnet #entry > .actions > .primary { width: 100%; }
+}

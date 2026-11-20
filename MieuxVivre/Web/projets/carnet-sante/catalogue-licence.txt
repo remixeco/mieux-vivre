@@ -1,0 +1,886 @@
+Catalogue Mieux vivre – exercices au poids du corps
+
+Données issues d’OpenExerciseDB, dérivées de wger. Le sous-ensemble de données est diffusé sous licence CC BY-SA 4.0. Les licences et crédits d’origine restent indiqués par fiche.
+Source : https://github.com/rfivesix/OpenExerciseDB
+Version : 202610292120 (5bf2da6f4e050732fed21a1f452bae51e173a261)
+SHA-256 du fichier SQLite d’origine : e518c2155cbd732ceed27afaf35fb3d8cd7462140d3fb6ed41b875a92a1b260a
+Modifications : sélection des fiches actives dont le poids du corps est la charge principale, extraction du nom et du texte français, ajout de libellés de recherche et conversion en JavaScript.
+Attribution du projet : https://github.com/rfivesix/OpenExerciseDB/blob/5bf2da6f4e050732fed21a1f452bae51e173a261/ATTRIBUTION.md
+Licence du catalogue : https://creativecommons.org/licenses/by-sa/4.0/
+Autres licences par fiche : https://creativecommons.org/licenses/by-sa/3.0/ et https://creativecommons.org/publicdomain/zero/1.0/
+
+ID wger	Nom	Licence d’origine	Crédit d’origine	Licence du texte FR	Crédit du texte FR
+56	Stabilisation abdominale sur rouleau	CC-BY-SA-3.0	andikeller	CC-BY-SA-3.0	andikeller
+57	Marche de l'ours	CC-BY-SA-4.0	nate303303	CC-BY-SA-4.0	wger.de
+112	Body-Ups	CC-BY-SA-4.0	cal.zabel	CC-BY-SA-4.0	wger.de
+132	Burpees avec pompes	CC-BY-SA-4.0	er0355	CC-BY-SA-4.0	er0355
+152	Traction en supination	CC0-1.0	BFad07	CC-BY-SA-4.0	wger.de
+165	Crunch sur ballon de gymnastique	CC-BY-SA-4.0	Konsumopfer	CC-BY-SA-4.0	Konsumopfer
+167	Abdominaux	CC-BY-SA-3.0	wger.de	CC-BY-SA-3.0	wger.de
+171	Crunchs sur banc incliné	CC-BY-SA-3.0	wger.de	CC-BY-SA-4.0	wger.de
+174	Crunchs jambes en l'air	CC-BY-SA-4.0	krisbbb	CC-BY-SA-4.0	wger.de
+178	Deadbug	CC-BY-SA-4.0	Metin	CC-BY-SA-4.0	wger.de
+182	Suspension à la barre (Deadhang)	CC-BY-SA-4.0	2dPREtEZP221u68Akf0JImv5L48	CC-BY-SA-4.0	2dPREtEZP221u68Akf0JImv5L48
+194	Dips	CC0-1.0	BFad07	CC-BY-SA-4.0	wger.de
+197	Dips entre deux bancs	CC-BY-SA-3.0	wger.de	CC-BY-SA-4.0	wger.de
+235	Battements de jambes	CC-BY-SA-4.0	nate303303	CC-BY-SA-4.0	wger.de
+260	Sit-outs complets	CC-BY-SA-4.0	http://www.realsimple.com/health/fitness-exercise/	CC-BY-SA-4.0	wger.de
+265	Pont fessier	CC-BY-SA-4.0	tdprice12	CC-BY-SA-4.0	wger.de
+282	Pompe en équilibre sur les mains	CC0-1.0	BFad07	CC-BY-SA-4.0	wger.de
+283	Relevés de jambes suspendu	CC-BY-SA-3.0	robhoyt	CC-BY-SA-3.0	robhoyt
+285	Sauts genoux hauts	CC-BY-SA-4.0	nate303303	CC-BY-SA-4.0	wger.de
+291	Squats hindous	CC-BY-SA-4.0	Vilhelmo	CC-BY-SA-4.0	wger.de
+292	Pont fessier au sol	CC-BY-SA-4.0	James Mackay	CC-BY-SA-4.0	wger.de
+297	Hollow hold	CC0-1.0	Behrooz	CC-BY-SA-4.0	wger.de
+301	Extensions lombaires (hyperextensions)	CC-BY-SA-3.0	wger.de	CC-BY-SA-4.0	wger.de
+312	Planche inclinée avec touche du sol alternée	CC-BY-SA-3.0	Mahoney	CC-BY-SA-4.0	wger.de
+314	Essuie-glaces isométriques	CC-BY-SA-4.0	cal.zabel	CC-BY-SA-4.0	wger.de
+319	Jogging	CC-BY-SA-4.0	Papazit	CC-BY-SA-4.0	Papazit
+320	Sauts en étoile	CC-BY-SA-4.0	student1234	CC-BY-SA-4.0	student1234
+376	Levées de jambe	CC0-1.0	BFad07	CC0-1.0	BFad07
+377	Relevés de jambes, allongé	CC-BY-SA-3.0	wger.de	CC-BY-SA-4.0	wger.de
+378	Relevés de jambes, debout	CC-BY-SA-3.0	wger.de	CC-BY-SA-4.0	wger.de
+382	Maintien en L (L-Hold)	CC-BY-SA-3.0	bizyguy	CC-BY-SA-3.0	bizyguy
+386	Pompes diamant	CC-BY-SA-4.0	notdefine	CC-BY-SA-4.0	wger.de
+423	Muscle-up	CC-BY-SA-4.0	arson	CC-BY-SA-4.0	wger.de
+427	Crunchs négatifs	CC-BY-SA-3.0	wger.de	CC-BY-SA-4.0	wger.de
+454	Pompes piquées (Pike push-up)	CC-BY-SA-4.0	Nash	CC-BY-SA-4.0	Nash
+456	Pistol squats gauches	CC-BY-SA-3.0	minifigmaster125	CC-BY-SA-3.0	minifigmaster125
+458	Planche pour les avant-bras	CC-BY-SA-3.0	YYCfit / BFad07	CC-BY-SA-3.0	YYCfit / BFad07
+468	Rétraction des omoplates à plat ventre - bras le long du corps	CC-BY-SA-4.0	donaddon	CC-BY-SA-4.0	wger.de
+475	Tractions	CC-BY-SA-3.0	wger.de	CC-BY-SA-3.0	wger.de
+500	Planche inversée (Reverse plank)	CC-BY-SA-4.0	spacetowaste	CC-BY-SA-4.0	spacetowaste
+501	Dips aux anneaux	CC-BY-SA-4.0	Nash	CC-BY-SA-4.0	Nash
+505	Crunch sur banc à lombaires (roman chair)	CC-BY-SA-3.0	MaddieBeasley	CC-BY-SA-4.0	wger.de
+516	Bûcheron frontal (Wood Chop)	CC-BY-SA-4.0	Konsumopfer	CC-BY-SA-4.0	Konsumopfer
+527	Course à pied	CC-BY-SA-4.0	BeLikeWater	CC-BY-SA-4.0	BeLikeWater
+529	Course fractionnée (Intervalles)	CC-BY-SA-4.0	BeLikeWater	CC-BY-SA-4.0	BeLikeWater
+545	Ciseaux	CC-BY-SA-4.0	vkylamba	CC-BY-SA-4.0	wger.de
+556	Flexion latérale à la machine	CC-BY-SA-3.0	klabautermann	CC-BY-SA-3.0	klabautermann
+570	Haussement d'épaules	CC0-1.0	BFad07	CC0-1.0	BFad07
+580	Planche latérale	CC-BY-SA-4.0	http://www.bodybuilding.com/	CC-BY-SA-4.0	http://www.bodybuilding.com/
+583	Pompes d'un côté à l'autre	CC-BY-SA-4.0	nate303303	CC-BY-SA-4.0	wger.de
+591	Relevés de buste avec jambes sur banc	CC-BY-SA-3.0	wger.de	CC-BY-SA-4.0	wger.de
+607	Relevés de buste croisés	CC-BY-SA-3.0	djblitzd	CC-BY-SA-4.0	wger.de
+614	Squats sautés (Jump squats)	CC-BY-SA-3.0	OGhTebfCxhexZXuf35mUxV9C--A	CC-BY-SA-3.0	OGhTebfCxhexZXuf35mUxV9C--A
+616	Poussées de squat (Squat thrust)	CC0-1.0	BFad07	CC0-1.0	BFad07
+632	Squats sumo	CC-BY-SA-4.0	sophialj	CC-BY-SA-4.0	sophialj
+636	Superman	CC-BY-SA-4.0	baldurmen	CC-BY-SA-4.0	wger.de
+688	Gainage pour obliques externes	CC-BY-SA-3.0	http://www.carinatum.com/	CC-BY-SA-3.0	http://www.carinatum.com/
+702	Élévation des mollets sur une jambe	CC-BY-SA-4.0	McMarcel13	CC-BY-SA-4.0	McMarcel13
+711	Équilibre contre le mur (Handstand)	CC-BY-SA-4.0	Nash	CC-BY-SA-4.0	Nash
+713	Pompes contre le mur	CC-BY-SA-3.0	Dexter	CC-BY-SA-3.0	Dexter
+716	Glissements muraux (Wall Slides)	CC-BY-SA-4.0	Whythebigpaws	CC-BY-SA-4.0	wger.de
+718	Chaise contre le mur	CC0-1.0	Blablabla	CC0-1.0	Blablabla
+804	Suspension sur prises fuyantes (Slopers)	CC-BY-SA-4.0	marcelbader	CC-BY-SA-4.0	marcelbader
+820	Suspension sur réglette de 20 mm (Poutre)	CC-BY-SA-4.0	marcelbader	CC-BY-SA-4.0	marcelbader
+821	Traction sur poutre d'escalade	CC-BY-SA-4.0	marcelbader	CC-BY-SA-4.0	marcelbader
+908	Course à pied en zone 2	CC-BY-SA-4.0	karly	CC-BY-SA-4.0	karly
+909	Reverse Nordic curl	CC-BY-SA-4.0	karly	CC-BY-SA-4.0	karly
+910	Nordic Curl	CC-BY-SA-4.0	karly	CC-BY-SA-4.0	wger.de
+957	Élévation bras et jambe à quatre pattes	CC-BY-SA-4.0	utkb	CC-BY-SA-4.0	wger.de
+961	Sprints de natation 50 m	CC-BY-SA-4.0	abuono	CC-BY-SA-4.0	abuono
+978	Relevés de genoux suspendu	CC-BY-SA-4.0	clafal	CC-BY-SA-4.0	clafal
+979	Relevés de jambes à la barre de traction	CC-BY-SA-4.0	clafal	CC-BY-SA-4.0	clafal
+980	Tractions commando	CC-BY-SA-4.0	clafal	CC-BY-SA-4.0	wger.de
+981	Marches	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+983	Genoux hauts	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+984	Fentes	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+985	Pompes avec rotation	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+986	Fentes latérales gauches	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+987	Fentes latérales droites	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+988	Squats bulgares gauches	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+989	Squats bulgares droites	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+990	Extensions de la hanche	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+991	Fentes avant gauches	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+992	Fentes avant droites	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+994	Cercles avant des bras	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+995	Cercle arrière des bras	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+996	Escaladeurs de montagne	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+997	Burpees (4 phases)	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+998	Burpees sans saut	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+999	Fentes arrière	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	wger.de
+1000	Dips au sol	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	wger.de
+1001	Planche haute	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+1002	Position de l'enfant (Child's pose)	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+1004	Rotation de l'épaule vers l'avant	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+1005	Rotation de l'épaule vers l'arrière	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+1006	Rentré de menton	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	wger.de
+1007	Tour de tête	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+1008	Étirement du cou à gauche	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+1009	Étirement du cou à droite	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+1010	Flexion du cou	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+1011	Étirement du cou en avant	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+1013	Étirement de l'élévateur de la scapula gauche	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	wger.de
+1014	Étirement de l'élévateur de la scapula droit	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	wger.de
+1015	Cercles du cou dans le sens horaire	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	wger.de
+1016	Cercles du cou dans le sens antihoraire	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	wger.de
+1017	Demi-cercles du cou	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	wger.de
+1018	Inclinaisons latérales de la tête	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	wger.de
+1019	Planche latérale droite	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+1020	Pistol squat jambe droite	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+1021	Élévation du mollet droit (sur une jambe)	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+1027	Étirement de la prière sur banc surélevé	CC-BY-SA-4.0	tinman	CC-BY-SA-4.0	wger.de
+1028	Rotation thoracique à quatre pattes à gauche	CC-BY-SA-4.0	tinman	CC-BY-SA-4.0	wger.de
+1029	Rotation thoracique à quatre pattes à droite	CC-BY-SA-4.0	tinman	CC-BY-SA-4.0	wger.de
+1080	Pompes hindoues	CC-BY-SA-4.0	Imobard	CC-BY-SA-4.0	wger.de
+1082	Rowing penché avec rotation externe	CC-BY-SA-4.0	tinman	CC-BY-SA-4.0	wger.de
+1083	Élévations au sol en Y-W-T	CC-BY-SA-4.0	tinman	CC-BY-SA-4.0	wger.de
+1086	Pompes en prise serrée	CC-BY-SA-4.0	philip	CC-BY-SA-4.0	wger.de
+1090	Pompes en V (V-Push-ups)	CC-BY-SA-4.0	clafal	CC-BY-SA-4.0	clafal
+1091	Touchers d'épaules en planche (Shoulder Taps)	CC-BY-SA-4.0	clafal	CC-BY-SA-4.0	wger.de
+1096	Abduction de hanche debout	CC-BY-SA-4.0	tregga	CC-BY-SA-4.0	wger.de
+1101	Traction isométrique (maintien statique)	CC-BY-SA-4.0	clafal	CC-BY-SA-4.0	clafal
+1102	Fentes arrière alternées	CC-BY-SA-4.0	clafal	CC-BY-SA-4.0	clafal
+1103	Walkout avec les mains (Walking Bridge)	CC-BY-SA-4.0	clafal	CC-BY-SA-4.0	wger.de
+1104	Marche à pied	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+1105	Regroupement de genoux assis (Seated knee tuck)	CC-BY-SA-4.0	utkb	CC-BY-SA-4.0	utkb
+1111	Pompes inclinées avec mains surélevées	CC-BY-SA-4.0	anon1337	CC-BY-SA-4.0	wger.de
+1112	Pompes déclinées avec pieds surélevés	CC-BY-SA-4.0	anon1337	CC-BY-SA-4.0	AlucardEvil40
+1113	Pompes sur parallettes	CC-BY-SA-4.0	anon1337	CC-BY-SA-4.0	wger.de
+1132	Extension des fessiers au GHD	CC-BY-SA-4.0	Franpol	CC-BY-SA-4.0	wger.de
+1141	Arabesque	CC-BY-SA-4.0	cleen	CC-BY-SA-4.0	wger.de
+1195	Pas chassés latéraux avec squats	CC-BY-SA-4.0	Insight	CC-BY-SA-4.0	wger.de
+1196	Exercices au mur (Wall Drills)	CC-BY-SA-4.0	Insight	CC-BY-SA-4.0	wger.de
+1198	Rowing inversé	CC-BY-SA-4.0	Gavru	CC-BY-SA-4.0	wger.de
+1200	Relevés tibiaux (Tibialis raises)	CC-BY-SA-4.0	cynomops	CC-BY-SA-4.0	cynomops
+1201	Squat du dragon	CC-BY-SA-4.0	cynomops	CC-BY-SA-4.0	wger.de
+1202	Abduction de hanche en décubitus latéral	CC-BY-SA-4.0	wakanda90	CC-BY-SA-4.0	wger.de
+1203	Extension des mollets sur une jambe (gauche)	CC-BY-SA-4.0	wakanda90	CC-BY-SA-4.0	wger.de
+1207	Coup de pied du scorpion	CC-BY-SA-4.0	lxmx	CC-BY-SA-4.0	wger.de
+1208	Squat du prisonnier	CC-BY-SA-4.0	lxmx	CC-BY-SA-4.0	wger.de
+1209	Pompe trois points	CC-BY-SA-4.0	lxmx	CC-BY-SA-4.0	wger.de
+1210	Parachutiste bras en T	CC-BY-SA-4.0	lxmx	CC-BY-SA-4.0	wger.de
+1214	Front lever groupé (Tuck)	CC-BY-SA-4.0	clafal	CC-BY-SA-4.0	wger.de
+1215	Ange de neige inversé	CC-BY-SA-4.0	mike6426	CC-BY-SA-4.0	wger.de
+1216	Tractions de recrutement sur poutre	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	wger.de
+1217	Pompes sur le bout des doigts	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	wger.de
+1218	Pompes sur les genoux	CC-BY-SA-4.0	PaukOne	CC-BY-SA-4.0	PaukOne
+1219	Tractions australiennes	CC-BY-SA-4.0	PaukOne	CC-BY-SA-4.0	PaukOne
+1223	Claquements de mains au-dessus de la tête	CC-BY-SA-4.0	Lynn_McIntyre	CC-BY-SA-4.0	Lynn_McIntyre
+1230	Étirement du triceps au-dessus de la tête (gauche)	CC-BY-SA-4.0	Lynn_McIntyre	CC-BY-SA-4.0	wger.de
+1231	Étirement du triceps au-dessus de la tête (droit)	CC-BY-SA-4.0	Lynn_McIntyre	CC-BY-SA-4.0	wger.de
+1232	Étirement du biceps debout au mur (gauche)	CC-BY-SA-4.0	Lynn_McIntyre	CC-BY-SA-4.0	wger.de
+1233	Étirement du biceps debout au mur (droit)	CC-BY-SA-4.0	Lynn_McIntyre	CC-BY-SA-4.0	wger.de
+1238	Équilibre de la grenouille (Frog Stand)	CC-BY-SA-4.0	clafal	CC-BY-SA-4.0	wger.de
+1239	Étirement des mollets debout	CC-BY-SA-4.0	erikocobra	CC-BY-SA-4.0	wger.de
+1240	Étirement du soléaire debout	CC-BY-SA-4.0	erikocobra	CC-BY-SA-4.0	erikocobra
+1243	Extension des mollets sur deux jambes	CC-BY-SA-4.0	erikocobra	CC-BY-SA-4.0	wger.de
+1244	Exercice de yoga : la vache et le chat	CC-BY-SA-4.0	damnlost	CC-BY-SA-4.0	wger.de
+1245	Front Lever (planche faciale)	CC-BY-SA-4.0	clafal	CC-BY-SA-4.0	clafal
+1248	Ice cream maker	CC-BY-SA-4.0	clafal	CC-BY-SA-4.0	wger.de
+1252	Tractions en Front lever	CC-BY-SA-4.0	clafal	CC-BY-SA-4.0	clafal
+1263	Pont arrière	CC-BY-SA-4.0	cynomops	CC-BY-SA-4.0	wger.de
+1274	Étirement des mollets assis (dorsiflexion)	CC-BY-SA-4.0	erikocobra	CC-BY-SA-4.0	erikocobra
+1282	Maintien isométrique en traction supination (Chin-up hold)	CC-BY-SA-4.0	clafal	CC-BY-SA-4.0	clafal
+1284	Pompe pseudo planche	CC-BY-SA-4.0	vdrb	CC-BY-SA-4.0	wger.de
+1285	Talons-fesses (Butt Kicks)	CC-BY-SA-4.0	painDpice	CC-BY-SA-4.0	painDpice
+1286	Planche dynamique	CC-BY-SA-4.0	painDpice	CC-BY-SA-4.0	admin
+1287	Élévations vers le plafond	CC-BY-SA-4.0	painDpice	CC-BY-SA-4.0	wger.de
+1288	Planche latérale dynamique	CC-BY-SA-4.0	painDpice	CC-BY-SA-4.0	wger.de
+1292	Tractions en supination (Chin-ups)	CC-BY-SA-4.0	clafal	CC-BY-SA-4.0	clafal
+1293	Pompes sur un bras	CC-BY-SA-4.0	clafal	CC-BY-SA-4.0	clafal
+1294	Flexion des ischios sur une jambe au sol	CC-BY-SA-4.0	clafal	CC-BY-SA-4.0	clafal
+1307	Planche frontale	CC-BY-SA-4.0	hektkaso	CC-BY-SA-4.0	wger.de
+1312	Squat au poids du corps	CC-BY-SA-4.0	admin	CC-BY-SA-4.0	wger.de
+1314	Jumping Jack	CC-BY-SA-4.0	hektkaso	CC-BY-SA-4.0	wger.de
+1318	Montées de genoux sautées	CC-BY-SA-4.0	hektkaso	CC-BY-SA-4.0	wger.de
+1320	Dips triceps au sol	CC-BY-SA-4.0	hektkaso	CC-BY-SA-4.0	wger.de
+1324	Fentes au poids du corps	CC-BY-SA-4.0	hektkaso	CC-BY-SA-4.0	wger.de
+1325	Poussée latérale explosive	CC-BY-SA-4.0	cleen	CC-BY-SA-4.0	cleen
+1348	Extensions du dos au banc à lombaires	CC-BY-SA-4.0	Anastasious	CC-BY-SA-4.0	wger.de
+1363	Automassage au rouleau de mousse (Blackroll)	CC-BY-SA-4.0	Anastasious	CC-BY-SA-4.0	Anastasious
+1373	Sauts sur boîte pliométrique (Box jump)	CC-BY-SA-4.0	tekknokrat	CC-BY-SA-4.0	tekknokrat
+1377	Rotation du buste debout	CC-BY-SA-4.0	brucem	CC-BY-SA-4.0	wger.de
+1387	Battements de jambe tendue	CC-BY-SA-4.0	captive0592	CC-BY-SA-4.0	wger.de
+1388	Soulevé de terre roumain sur une jambe	CC-BY-SA-4.0	admin	CC-BY-SA-4.0	wger.de
+1390	Toucher des orteils	CC-BY-SA-4.0	captive0592	CC-BY-SA-4.0	wger.de
+1391	Marche de l'éléphant	CC-BY-SA-4.0	captive0592	CC-BY-SA-4.0	wger.de
+1392	Good morning au poids du corps	CC-BY-SA-4.0	captive0592	CC-BY-SA-4.0	wger.de
+1393	Étirement des ischio-jambiers sur une jambe	CC-BY-SA-4.0	captive0592	CC-BY-SA-4.0	wger.de
+1394	Flexion assise (sit & reach)	CC-BY-SA-4.0	captive0592	CC-BY-SA-4.0	wger.de
+1395	Balancements de jambe croisés	CC-BY-SA-4.0	captive0592	CC-BY-SA-4.0	wger.de
+1396	Pancake debout	CC-BY-SA-4.0	captive0592	CC-BY-SA-4.0	wger.de
+1397	Good morning jambes écartées debout	CC-BY-SA-4.0	captive0592	CC-BY-SA-4.0	wger.de
+1398	Étirement actif de l'ischio-jambier assis	CC-BY-SA-4.0	captive0592	CC-BY-SA-4.0	wger.de
+1399	Déroulé du buste (roll down)	CC-BY-SA-4.0	captive0592	CC-BY-SA-4.0	wger.de
+1400	Étirement des ischio-jambiers jambes croisées	CC-BY-SA-4.0	captive0592	CC-BY-SA-4.0	wger.de
+1406	Gainage planche vers extension des coudes	CC-BY-SA-4.0	clafal	CC-BY-SA-4.0	clafal
+1407	Squat cosaque	CC-BY-SA-4.0	clafal	CC-BY-SA-4.0	wger.de
+1408	Chaise (wall-sit)	CC-BY-SA-4.0	clafal	CC-BY-SA-4.0	wger.de
+1409	Dragon flag	CC-BY-SA-4.0	clafal	CC-BY-SA-4.0	wger.de
+1410	Planche avec élévation alternée des jambes	CC-BY-SA-4.0	hpmbala	CC-BY-SA-4.0	hpmbala
+1411	Toucher des talons	CC-BY-SA-4.0	hpmbala	CC-BY-SA-4.0	wger.de
+1412	Crunchs bicyclette	CC-BY-SA-4.0	hpmbala	CC-BY-SA-4.0	wger.de
+1425	Toe taps	CC-BY-SA-4.0	hpmbala	CC-BY-SA-4.0	wger.de
+1426	Crunchs latéraux debout	CC-BY-SA-4.0	hpmbala	CC-BY-SA-4.0	wger.de
+1435	Tractions scapulaires	CC-BY-SA-4.0	M9	CC-BY-SA-4.0	M9
+1450	Étirement du cobra (Cobra Stretch)	CC-BY-SA-4.0	hpmbala	CC-BY-SA-4.0	wger.de
+1451	Étirement en rotation du tronc	CC-BY-SA-4.0	hpmbala	CC-BY-SA-4.0	wger.de
+1452	Étirement genou-poitrine	CC-BY-SA-4.0	hpmbala	CC-BY-SA-4.0	wger.de
+1455	Superman avec serviette	CC-BY-SA-4.0	Yderkone	CC-BY-SA-4.0	wger.de
+1462	Coups de poing directs (Punches)	CC-BY-SA-4.0	lh1701	CC-BY-SA-4.0	lh1701
+1474	Relevé en W (W-Raise)	CC-BY-SA-4.0	Moffi	CC-BY-SA-4.0	wger.de
+1475	Glissements de genoux Black Widow	CC-BY-SA-4.0	Moffi	CC-BY-SA-4.0	wger.de
+1476	Sit-up papillon (Butterfly Sit-up)	CC-BY-SA-4.0	Moffi	CC-BY-SA-4.0	wger.de
+1477	Tire-bouchon assis (Seated Corkscrew)	CC-BY-SA-4.0	Moffi	CC-BY-SA-4.0	wger.de
+1478	Crunch en lévitation	CC-BY-SA-4.0	Moffi	CC-BY-SA-4.0	wger.de
+1479	Sit-up avec coup de coude (Sit Up Elbow Thrust)	CC-BY-SA-4.0	Moffi	CC-BY-SA-4.0	wger.de
+1489	Plank Jacks (gainage avec sauts de jambes)	CC-BY-SA-4.0	jayninja	CC-BY-SA-4.0	jayninja
+1514	Marche latérale	CC-BY-SA-4.0	cozyGalvinism	CC-BY-SA-4.0	wger.de
+1516	Équilibre sur les mains libre (Handstand)	CC-BY-SA-4.0	Fittness69	CC-BY-SA-4.0	Fittness69
+1529	Pointes de pieds à la barre (toes to bar)	CC-BY-SA-4.0	florian.bussmann	CC-BY-SA-4.0	wger.de
+1536	Étirement des deltoïdes	CC-BY-SA-4.0	Expenses7000	CC-BY-SA-4.0	Expenses7000
+1537	Suspension isométrique en haut de traction	CC-BY-SA-4.0	DiscoCop	CC-BY-SA-4.0	DiscoCop
+1545	Traction de l'archer	CC-BY-SA-4.0	Antsy6277	CC-BY-SA-4.0	wger.de
+1551	Pompe	CC-BY-SA-4.0	Settebello	CC-BY-SA-4.0	wger.de
+1554	Pompe avec applaudissement	CC-BY-SA-4.0	Settebello	CC-BY-SA-4.0	wger.de
+1572	Bird Dog	CC-BY-SA-4.0	Settebello	CC-BY-SA-4.0	wger.de
+1573	Roue abdominale	CC-BY-SA-4.0	lhegedus	CC-BY-SA-4.0	wger.de
+1574	Natation libre	CC-BY-SA-4.0	delta@romeo	CC-BY-SA-4.0	delta@romeo
+1576	Snap Down	CC-BY-SA-4.0	mountain.potato	CC-BY-SA-4.0	wger.de
+1577	Étirement Bretzel	CC-BY-SA-4.0	mountain.potato	CC-BY-SA-4.0	wger.de
+1578	Charnière de hanche (Hip Hinge)	CC-BY-SA-4.0	mountain.potato	CC-BY-SA-4.0	wger.de
+1579	Test Bronco (course navette)	CC-BY-SA-4.0	MU5H	CC-BY-SA-4.0	wger.de
+1584	Marche ou course sur place	CC-BY-SA-4.0	MrAlfaRobot	CC-BY-SA-4.0	wger.de
+1589	Étirement des jambes et des hanches	CC-BY-SA-4.0	MrAlfaRobot	CC-BY-SA-4.0	MrAlfaRobot
+1590	Étirement des bras et de la nuque	CC-BY-SA-4.0	MrAlfaRobot	CC-BY-SA-4.0	MrAlfaRobot
+1591	Respiration diaphragmatique profonde	CC-BY-SA-4.0	MrAlfaRobot	CC-BY-SA-4.0	MrAlfaRobot
+1592	Méditation guidée ou libre	CC-BY-SA-4.0	MrAlfaRobot	CC-BY-SA-4.0	MrAlfaRobot
+1605	Exercice d'adduction de Copenhague	CC-BY-SA-4.0	RiccaBaro	CC-BY-SA-4.0	wger.de
+1606	Élévations de bras (T/Y/I)	CC-BY-SA-4.0	WiNNiE	CC-BY-SA-4.0	wger.de
+1607	Tractions typewriter	CC-BY-SA-4.0	tenebrizz	CC-BY-SA-4.0	wger.de
+1608	Curl biceps au poids du corps	CC-BY-SA-4.0	tenebrizz	CC-BY-SA-4.0	wger.de
+1670	Balancements de jambe (avant-arrière)	CC-BY-SA-4.0	Jhonatan	CC-BY-SA-4.0	wger.de
+1679	Wall angels (anges au mur)	CC-BY-SA-4.0	bbayuwega	CC-BY-SA-4.0	wger.de
+1680	Étirement en figure quatre assis	CC-BY-SA-4.0	ricardodavidrd	CC-BY-SA-4.0	wger.de
+1695	Tractions (prise large)	CC-BY-SA-4.0	daiben	CC-BY-SA-4.0	wger.de
+1696	Tractions (prise neutre)	CC-BY-SA-4.0	daiben	CC-BY-SA-4.0	wger.de
+1704	L-sit groupé (tuck L-sit)	CC-BY-SA-4.0	clafal	CC-BY-SA-4.0	wger.de
+1710	Étirement du billot de boucher (butcher's block)	CC-BY-SA-4.0	Croak6728	CC-BY-SA-4.0	wger.de
+1711	Étirement du dormeur (sleeper stretch)	CC-BY-SA-4.0	Croak6728	CC-BY-SA-4.0	wger.de
+1712	Étirement en flexion horizontale de l'épaule	CC-BY-SA-4.0	Croak6728	CC-BY-SA-4.0	wger.de
+1713	Étirement des pectoraux dans l'encadrement de porte	CC-BY-SA-4.0	Croak6728	CC-BY-SA-4.0	wger.de
+1716	Pompe scapulaire inclinée	CC-BY-SA-4.0	Croak6728	CC-BY-SA-4.0	wger.de
+1733	Squat isométrique jusqu'à l'échec	CC-BY-SA-4.0	Tierrasverdes	CC-BY-SA-4.0	wger.de
+1738	Tractions en prise neutre ou rowings TRX	CC-BY-SA-4.0	54str	CC-BY-SA-4.0	wger.de
+1739	Shrimp squat	CC-BY-SA-4.0	Happy	CC-BY-SA-4.0	Happy
+1740	Pont fessier sur une jambe	CC-BY-SA-4.0	Happy	CC-BY-SA-4.0	Happy
+1741	Tractions en L-Sit	CC-BY-SA-4.0	Happy	CC-BY-SA-4.0	Happy
+1742	Back Lever (planche dorsale)	CC-BY-SA-4.0	Happy	CC-BY-SA-4.0	Happy
+1743	Essuie-glaces suspendu	CC-BY-SA-4.0	Happy	CC-BY-SA-4.0	wger.de
+1766	Planche avec extension du bras	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	wger.de
+1772	Crunch inversé	CC-BY-SA-4.0	eufvksruh	CC-BY-SA-4.0	wger.de
+1774	Dips sur chaise	CC-BY-SA-4.0	tinman	CC-BY-SA-4.0	wger.de
+1777	Pompes en déficit	CC-BY-SA-4.0	Rottekongen	CC-BY-SA-4.0	Rottekongen
+1804	Bascules en dorsiflexion de la cheville	CC-BY-SA-4.0	Davidgj32	CC-BY-SA-4.0	wger.de
+1808	Maintien en appui aux barres parallèles	CC-BY-SA-4.0	Croak6728	CC-BY-SA-4.0	wger.de
+1809	Hyperextension inversée	CC-BY-SA-4.0	Croak6728	CC-BY-SA-4.0	wger.de
+1810	Posture du sphinx	CC-BY-SA-4.0	Joculari	CC-BY-SA-4.0	wger.de
+1822	Exercice du livre ouvert (Open Book)	CC-BY-SA-4.0	teus_ergaster	CC-BY-SA-4.0	wger.de
+1823	Coquille (Clamshell)	CC-BY-SA-4.0	teus_ergaster	CC-BY-SA-4.0	wger.de
+1827	Pression abdominale à deux jambes	CC-BY-SA-4.0	beagle	CC-BY-SA-4.0	wger.de
+1828	Rentrée du ventre (Stomach Vacuum)	CC-BY-SA-4.0	beagle	CC-BY-SA-4.0	wger.de
+1833	Curl des ischio-jambiers avec sliders au sol	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	wger.de
+1834	Élévation trapèze inférieur (Trap-3)	CC-BY-SA-4.0	Croak6728	CC-BY-SA-4.0	wger.de
+1839	Étirement autonome des fléchisseurs de hanche	CC-BY-SA-4.0	Croak6728	CC-BY-SA-4.0	Croak6728
+1840	Étirement des ischios jambe fléchie	CC-BY-SA-4.0	Croak6728	CC-BY-SA-4.0	Croak6728
+1841	Étirement des épaules en extension assis	CC-BY-SA-4.0	Croak6728	CC-BY-SA-4.0	wger.de
+1843	Étirement du papillon	CC-BY-SA-4.0	Croak6728	CC-BY-SA-4.0	wger.de
+1844	Étirement de la grenouille	CC-BY-SA-4.0	Croak6728	CC-BY-SA-4.0	wger.de
+1845	Good morning jambes écartées assis	CC-BY-SA-4.0	Croak6728	CC-BY-SA-4.0	wger.de
+1846	Posture du cavalier (grand écart latéral)	CC-BY-SA-4.0	Croak6728	CC-BY-SA-4.0	wger.de
+1847	L-sit jambes écartées	CC-BY-SA-4.0	Croak6728	CC-BY-SA-4.0	wger.de
+1852	L-sit	CC-BY-SA-4.0	Croak6728	CC-BY-SA-4.0	wger.de
+1853	L-Sit avec pieds au sol en appui	CC-BY-SA-4.0	Croak6728	CC-BY-SA-4.0	Croak6728
+1854	Automassage des mollets au rouleau	CC-BY-SA-4.0	Davidgj32	CC-BY-SA-4.0	Davidgj32
+1855	Automassage des ischios au rouleau	CC-BY-SA-4.0	Davidgj32	CC-BY-SA-4.0	Davidgj32
+1856	Automassage du jambier antérieur au rouleau	CC-BY-SA-4.0	Davidgj32	CC-BY-SA-4.0	Davidgj32
+1857	Automassage de la bandelette ilio-tibiale au rouleau	CC-BY-SA-4.0	Davidgj32	CC-BY-SA-4.0	Davidgj32
+1858	Automassage des quadriceps au rouleau	CC-BY-SA-4.0	Davidgj32	CC-BY-SA-4.0	Davidgj32
+1859	Automassage des fessiers au rouleau	CC-BY-SA-4.0	Davidgj32	CC-BY-SA-4.0	Davidgj32
+1860	Automassage des adducteurs au rouleau	CC-BY-SA-4.0	Davidgj32	CC-BY-SA-4.0	Davidgj32
+1861	Étirement latéral du buste	CC-BY-SA-4.0	Davidgj32	CC-BY-SA-4.0	Davidgj32
+1862	Rotations articulaires des hanches	CC-BY-SA-4.0	Davidgj32	CC-BY-SA-4.0	Davidgj32
+1863	Croisement de hanche au sol	CC-BY-SA-4.0	Davidgj32	CC-BY-SA-4.0	Davidgj32
+1864	Rotations de cheville	CC-BY-SA-4.0	Davidgj32	CC-BY-SA-4.0	Davidgj32
+1867	Étirement du psoas et des fléchisseurs de hanche	CC-BY-SA-4.0	Davidgj32	CC-BY-SA-4.0	Davidgj32
+1868	Fente avec rotation du buste	CC-BY-SA-4.0	Davidgj32	CC-BY-SA-4.0	Davidgj32
+1869	Étirement du fessier en quatre au sol (Figure four)	CC-BY-SA-4.0	Davidgj32	CC-BY-SA-4.0	Davidgj32
+1872	Posture du pigeon (Pigeon stretch)	CC-BY-SA-4.0	Davidgj32	CC-BY-SA-4.0	Davidgj32
+1873	Étirement des quadriceps debout	CC-BY-SA-4.0	Davidgj32	CC-BY-SA-4.0	Davidgj32
+1874	Étirement du coureur en fente avant	CC-BY-SA-4.0	Davidgj32	CC-BY-SA-4.0	Davidgj32
+1875	Étirement debout de la bandelette ilio-tibiale	CC-BY-SA-4.0	Davidgj32	CC-BY-SA-4.0	Davidgj32
+1876	Étirement du mollet en appui contre le mur	CC-BY-SA-4.0	Davidgj32	CC-BY-SA-4.0	Davidgj32
+1884	Étirement en rotation interne en position shinbox	CC-BY-SA-4.0	teus_ergaster	CC-BY-SA-4.0	wger.de
+1886	Abduction de hanche en décubitus dorsal	CC-BY-SA-4.0	teus_ergaster	CC-BY-SA-4.0	wger.de
+1889	Relevé de jambes sur banc décliné	CC-BY-SA-4.0	nishant0712	CC-BY-SA-4.0	wger.de
+1902	Pompes lestées	CC-BY-SA-4.0	nishant0712	CC-BY-SA-4.0	wger.de
+1906	Pont fessier avec extension alternée des jambes	CC-BY-SA-4.0	cybro	CC-BY-SA-4.0	wger.de
+1907	Fentes unilatérales (Split Squats)	CC-BY-SA-4.0	cybro	CC-BY-SA-4.0	cybro
+1908	Superman papillon au sol	CC-BY-SA-4.0	cybro	CC-BY-SA-4.0	cybro
+1909	Cercles avec les jambes au sol	CC-BY-SA-4.0	cybro	CC-BY-SA-4.0	wger.de
+1910	Superman à genoux (Bird Dog)	CC-BY-SA-4.0	cybro	CC-BY-SA-4.0	wger.de
+1911	Planche du chat (Cat Plank)	CC-BY-SA-4.0	cybro	CC-BY-SA-4.0	wger.de
+1912	Rotation du tronc assis (Russian Twist)	CC-BY-SA-4.0	cybro	CC-BY-SA-4.0	wger.de
+1913	Pont fessier à une jambe (Single-Leg Glute Bridge)	CC-BY-SA-4.0	cybro	CC-BY-SA-4.0	cybro
+1914	Maintien isométrique aux barres parallèles (Support Hold)	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	wger.de
+1916	Tuck planche (gainage planche groupée)	CC-BY-SA-4.0	ISSACS	CC-BY-SA-4.0	ISSACS
+1919	Étirement intense des pectoraux	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+1920	Étirement intense des épaules	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+1921	Étirement intense du grand dorsal	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+1933	Crunch inversé	CC-BY-SA-4.0	amaesc	CC-BY-SA-4.0	wger.de
+1938	Posture du chat-vache (Cat-Cow)	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+1939	Rotations articulaires contrôlées du cou (Neck CARs)	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+1940	Respiration diaphragmatique au sol	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Non renseigné
+1948	Squat cosaque (Cossack Squat)	CC-BY-SA-4.0	jesusd	CC-BY-SA-4.0	wger.de
+1949	Routine de mobilité Limber 11	CC-BY-SA-4.0	Pete-E automation probe	CC-BY-SA-4.0	wger.de
+1950	Automassage au rouleau de la bandelette ilio-tibiale	CC-BY-SA-4.0	Pete-E automation	CC-BY-SA-4.0	Pete-E automation
+1952	Automassage des fessiers à la balle de crosse	CC-BY-SA-4.0	Pete-E automation	CC-BY-SA-4.0	Pete-E automation
+1953	Croix de fer jambes fléchies au sol	CC-BY-SA-4.0	Pete-E automation	CC-BY-SA-4.0	Pete-E automation
+1954	Roulades au sol vers le V-Sit	CC-BY-SA-4.0	Pete-E automation	CC-BY-SA-4.0	Pete-E automation
+1956	Rotations de la hanche à quatre pattes (Fire hydrant)	CC-BY-SA-4.0	Pete-E automation	CC-BY-SA-4.0	Pete-E automation
+1959	Étirement du piriforme assis	CC-BY-SA-4.0	Pete-E automation	CC-BY-SA-4.0	wger.de
+1960	Étirement des fléchisseurs de hanche avec pied arrière surélevé	CC-BY-SA-4.0	Pete-E automation	CC-BY-SA-4.0	wger.de
+1962	Step Jack (Jumping jack à faible impact)	CC-BY-SA-4.0	Anon#2	CC-BY-SA-4.0	wger.de
+1963	Squat lent au tempo (Tempo Squat)	CC-BY-SA-4.0	Anon#2	CC-BY-SA-4.0	wger.de
+1964	Pompes prise large (Wide Push-Up)	CC-BY-SA-4.0	Anon#2	CC-BY-SA-4.0	wger.de
+1965	Montées de genou debout	CC-BY-SA-4.0	Anon#2	CC-BY-SA-4.0	wger.de
+1966	Rotation thoracique en fente basse contre un mur	CC-BY-SA-4.0	amwang4	CC-BY-SA-4.0	wger.de
+2447	Hip Airplane (rotation de hanche)	CC-BY-SA-4.0	TobiasFalk	CC-BY-SA-4.0	wger.de
+2448	Clamshell inversé	CC-BY-SA-4.0	TobiasFalk	CC-BY-SA-4.0	wger.de
+2449	Clamshell combiné avec clamshell inversé	CC-BY-SA-4.0	TobiasFalk	CC-BY-SA-4.0	wger.de
+2454	Élévations Y-T-W au sol	CC-BY-SA-4.0	probablyforging	CC-BY-SA-4.0	probablyforging
+2480	Nage continue allure modérée (crawl)	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Imported from swim plan
+2482	Exercice respiratoire d'immersion (Bobbing)	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Imported from swim plan
+2483	Rotation du buste en maintien au mur (piscine)	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Imported from swim plan
+2485	Mouvements de bras et roulis (natation)	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Imported from swim plan
+2486	Récupération active par immersion (Bobbing)	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Imported from swim plan
+2487	Retour au calme en natation	CC-BY-SA-4.0	Non renseigné	CC-BY-SA-4.0	Imported from swim plan
+2488	Rétroversion du bassin au sol	CC-BY-SA-4.0	Raj	CC-BY-SA-4.0	Raj
+2493	Gainage latéral pour adducteurs (Copenhague)	CC-BY-SA-4.0	hurr99	CC-BY-SA-4.0	hurr99
+2496	Pompes contre le mur	CC-BY-SA-4.0	Vasco Custom	CC-BY-SA-4.0	Non renseigné
+2498	Pompes en pique (Pike push-ups)	CC-BY-SA-4.0	Vasco Custom	CC-BY-SA-4.0	Non renseigné
+2499	Pompes inclinées mains surélevées	CC-BY-SA-4.0	Vasco Custom	CC-BY-SA-4.0	Non renseigné
+2501	Rowing inversé sous une table	CC-BY-SA-4.0	Vasco Custom	CC-BY-SA-4.0	Non renseigné
+2503	Face pull au chambranle de porte avec serviette	CC-BY-SA-4.0	Vasco Custom	CC-BY-SA-4.0	Non renseigné
+2505	Dead Bug au sol	CC-BY-SA-4.0	Vasco Custom	CC-BY-SA-4.0	Non renseigné
+2507	Gainage sur les avant-bras	CC-BY-SA-4.0	Vasco Custom	CC-BY-SA-4.0	Non renseigné
+2508	Bird Dog à quatre pattes	CC-BY-SA-4.0	Vasco Custom	CC-BY-SA-4.0	Non renseigné
+2509	Gainage latéral (Planche latérale)	CC-BY-SA-4.0	Vasco Custom	CC-BY-SA-4.0	Non renseigné
+2510	Maintien en hollow body (Bateau)	CC-BY-SA-4.0	Vasco Custom	CC-BY-SA-4.0	Non renseigné
+2523	Glissement contre le mur pour le dentelé antérieur	CC-BY-SA-4.0	Croak6728	CC-BY-SA-4.0	Croak6728
+2525	Couch stretch (étirement sur canapé/mur)	CC-BY-SA-4.0	Croak6728	CC-BY-SA-4.0	Croak6728
+2526	Fente longue avec pulsations	CC-BY-SA-4.0	Croak6728	CC-BY-SA-4.0	Croak6728
+2527	Étirement du grand écart facial/sagittal	CC-BY-SA-4.0	Croak6728	CC-BY-SA-4.0	Croak6728
+2528	Squat profond avec extension d'un bras vers le ciel	CC-BY-SA-4.0	Croak6728	CC-BY-SA-4.0	Croak6728
+2529	Pompes explosives (pliométriques)	CC-BY-SA-4.0	ege	CC-BY-SA-4.0	ege
+2530	Pompes russes sur les avant-bras	CC-BY-SA-4.0	ege	CC-BY-SA-4.0	ege
+2531	Levier sur les coudes (Elbow Lever)	CC-BY-SA-4.0	ege	CC-BY-SA-4.0	ege
+2532	Maintien penché en planche (Planche lean)	CC-BY-SA-4.0	ege	CC-BY-SA-4.0	ege
+2533	Suspension en arche (Arch hang)	CC-BY-SA-4.0	wintercyan	CC-BY-SA-4.0	wintercyan
+2534	Pont de fessiers au sol (Glute Bridge)	CC-BY-SA-4.0	dvdfernandez95	CC-BY-SA-4.0	dvdfernandez95
+2543	Rotations articulaires des poignets	CC-BY-SA-4.0	Awlex	CC-BY-SA-4.0	Awlex
+
+Attribution-ShareAlike 4.0 International
+
+=======================================================================
+
+Creative Commons Corporation ("Creative Commons") is not a law firm and
+does not provide legal services or legal advice. Distribution of
+Creative Commons public licenses does not create a lawyer-client or
+other relationship. Creative Commons makes its licenses and related
+information available on an "as-is" basis. Creative Commons gives no
+warranties regarding its licenses, any material licensed under their
+terms and conditions, or any related information. Creative Commons
+disclaims all liability for damages resulting from their use to the
+fullest extent possible.
+
+Using Creative Commons Public Licenses
+
+Creative Commons public licenses provide a standard set of terms and
+conditions that creators and other rights holders may use to share
+original works of authorship and other material subject to copyright
+and certain other rights specified in the public license below. The
+following considerations are for informational purposes only, are not
+exhaustive, and do not form part of our licenses.
+
+     Considerations for licensors: Our public licenses are
+     intended for use by those authorized to give the public
+     permission to use material in ways otherwise restricted by
+     copyright and certain other rights. Our licenses are
+     irrevocable. Licensors should read and understand the terms
+     and conditions of the license they choose before applying it.
+     Licensors should also secure all rights necessary before
+     applying our licenses so that the public can reuse the
+     material as expected. Licensors should clearly mark any
+     material not subject to the license. This includes other CC-
+     licensed material, or material used under an exception or
+     limitation to copyright. More considerations for licensors:
+    wiki.creativecommons.org/Considerations_for_licensors
+
+     Considerations for the public: By using one of our public
+     licenses, a licensor grants the public permission to use the
+     licensed material under specified terms and conditions. If
+     the licensor's permission is not necessary for any reason--for
+     example, because of any applicable exception or limitation to
+     copyright--then that use is not regulated by the license. Our
+     licenses grant only permissions under copyright and certain
+     other rights that a licensor has authority to grant. Use of
+     the licensed material may still be restricted for other
+     reasons, including because others have copyright or other
+     rights in the material. A licensor may make special requests,
+     such as asking that all changes be marked or described.
+     Although not required by our licenses, you are encouraged to
+     respect those requests where reasonable. More considerations
+     for the public:
+    wiki.creativecommons.org/Considerations_for_licensees
+
+=======================================================================
+
+Creative Commons Attribution-ShareAlike 4.0 International Public
+License
+
+By exercising the Licensed Rights (defined below), You accept and agree
+to be bound by the terms and conditions of this Creative Commons
+Attribution-ShareAlike 4.0 International Public License ("Public
+License"). To the extent this Public License may be interpreted as a
+contract, You are granted the Licensed Rights in consideration of Your
+acceptance of these terms and conditions, and the Licensor grants You
+such rights in consideration of benefits the Licensor receives from
+making the Licensed Material available under these terms and
+conditions.
+
+
+Section 1 -- Definitions.
+
+  a. Adapted Material means material subject to Copyright and Similar
+     Rights that is derived from or based upon the Licensed Material
+     and in which the Licensed Material is translated, altered,
+     arranged, transformed, or otherwise modified in a manner requiring
+     permission under the Copyright and Similar Rights held by the
+     Licensor. For purposes of this Public License, where the Licensed
+     Material is a musical work, performance, or sound recording,
+     Adapted Material is always produced where the Licensed Material is
+     synched in timed relation with a moving image.
+
+  b. Adapter's License means the license You apply to Your Copyright
+     and Similar Rights in Your contributions to Adapted Material in
+     accordance with the terms and conditions of this Public License.
+
+  c. BY-SA Compatible License means a license listed at
+     creativecommons.org/compatiblelicenses, approved by Creative
+     Commons as essentially the equivalent of this Public License.
+
+  d. Copyright and Similar Rights means copyright and/or similar rights
+     closely related to copyright including, without limitation,
+     performance, broadcast, sound recording, and Sui Generis Database
+     Rights, without regard to how the rights are labeled or
+     categorized. For purposes of this Public License, the rights
+     specified in Section 2(b)(1)-(2) are not Copyright and Similar
+     Rights.
+
+  e. Effective Technological Measures means those measures that, in the
+     absence of proper authority, may not be circumvented under laws
+     fulfilling obligations under Article 11 of the WIPO Copyright
+     Treaty adopted on December 20, 1996, and/or similar international
+     agreements.
+
+  f. Exceptions and Limitations means fair use, fair dealing, and/or
+     any other exception or limitation to Copyright and Similar Rights
+     that applies to Your use of the Licensed Material.
+
+  g. License Elements means the license attributes listed in the name
+     of a Creative Commons Public License. The License Elements of this
+     Public License are Attribution and ShareAlike.
+
+  h. Licensed Material means the artistic or literary work, database,
+     or other material to which the Licensor applied this Public
+     License.
+
+  i. Licensed Rights means the rights granted to You subject to the
+     terms and conditions of this Public License, which are limited to
+     all Copyright and Similar Rights that apply to Your use of the
+     Licensed Material and that the Licensor has authority to license.
+
+  j. Licensor means the individual(s) or entity(ies) granting rights
+     under this Public License.
+
+  k. Share means to provide material to the public by any means or
+     process that requires permission under the Licensed Rights, such
+     as reproduction, public display, public performance, distribution,
+     dissemination, communication, or importation, and to make material
+     available to the public including in ways that members of the
+     public may access the material from a place and at a time
+     individually chosen by them.
+
+  l. Sui Generis Database Rights means rights other than copyright
+     resulting from Directive 96/9/EC of the European Parliament and of
+     the Council of 11 March 1996 on the legal protection of databases,
+     as amended and/or succeeded, as well as other essentially
+     equivalent rights anywhere in the world.
+
+  m. You means the individual or entity exercising the Licensed Rights
+     under this Public License. Your has a corresponding meaning.
+
+
+Section 2 -- Scope.
+
+  a. License grant.
+
+       1. Subject to the terms and conditions of this Public License,
+          the Licensor hereby grants You a worldwide, royalty-free,
+          non-sublicensable, non-exclusive, irrevocable license to
+          exercise the Licensed Rights in the Licensed Material to:
+
+            a. reproduce and Share the Licensed Material, in whole or
+               in part; and
+
+            b. produce, reproduce, and Share Adapted Material.
+
+       2. Exceptions and Limitations. For the avoidance of doubt, where
+          Exceptions and Limitations apply to Your use, this Public
+          License does not apply, and You do not need to comply with
+          its terms and conditions.
+
+       3. Term. The term of this Public License is specified in Section
+          6(a).
+
+       4. Media and formats; technical modifications allowed. The
+          Licensor authorizes You to exercise the Licensed Rights in
+          all media and formats whether now known or hereafter created,
+          and to make technical modifications necessary to do so. The
+          Licensor waives and/or agrees not to assert any right or
+          authority to forbid You from making technical modifications
+          necessary to exercise the Licensed Rights, including
+          technical modifications necessary to circumvent Effective
+          Technological Measures. For purposes of this Public License,
+          simply making modifications authorized by this Section 2(a)
+          (4) never produces Adapted Material.
+
+       5. Downstream recipients.
+
+            a. Offer from the Licensor -- Licensed Material. Every
+               recipient of the Licensed Material automatically
+               receives an offer from the Licensor to exercise the
+               Licensed Rights under the terms and conditions of this
+               Public License.
+
+            b. Additional offer from the Licensor -- Adapted Material.
+               Every recipient of Adapted Material from You
+               automatically receives an offer from the Licensor to
+               exercise the Licensed Rights in the Adapted Material
+               under the conditions of the Adapter's License You apply.
+
+            c. No downstream restrictions. You may not offer or impose
+               any additional or different terms or conditions on, or
+               apply any Effective Technological Measures to, the
+               Licensed Material if doing so restricts exercise of the
+               Licensed Rights by any recipient of the Licensed
+               Material.
+
+       6. No endorsement. Nothing in this Public License constitutes or
+          may be construed as permission to assert or imply that You
+          are, or that Your use of the Licensed Material is, connected
+          with, or sponsored, endorsed, or granted official status by,
+          the Licensor or others designated to receive attribution as
+          provided in Section 3(a)(1)(A)(i).
+
+  b. Other rights.
+
+       1. Moral rights, such as the right of integrity, are not
+          licensed under this Public License, nor are publicity,
+          privacy, and/or other similar personality rights; however, to
+          the extent possible, the Licensor waives and/or agrees not to
+          assert any such rights held by the Licensor to the limited
+          extent necessary to allow You to exercise the Licensed
+          Rights, but not otherwise.
+
+       2. Patent and trademark rights are not licensed under this
+          Public License.
+
+       3. To the extent possible, the Licensor waives any right to
+          collect royalties from You for the exercise of the Licensed
+          Rights, whether directly or through a collecting society
+          under any voluntary or waivable statutory or compulsory
+          licensing scheme. In all other cases the Licensor expressly
+          reserves any right to collect such royalties.
+
+
+Section 3 -- License Conditions.
+
+Your exercise of the Licensed Rights is expressly made subject to the
+following conditions.
+
+  a. Attribution.
+
+       1. If You Share the Licensed Material (including in modified
+          form), You must:
+
+            a. retain the following if it is supplied by the Licensor
+               with the Licensed Material:
+
+                 i. identification of the creator(s) of the Licensed
+                    Material and any others designated to receive
+                    attribution, in any reasonable manner requested by
+                    the Licensor (including by pseudonym if
+                    designated);
+
+                ii. a copyright notice;
+
+               iii. a notice that refers to this Public License;
+
+                iv. a notice that refers to the disclaimer of
+                    warranties;
+
+                 v. a URI or hyperlink to the Licensed Material to the
+                    extent reasonably practicable;
+
+            b. indicate if You modified the Licensed Material and
+               retain an indication of any previous modifications; and
+
+            c. indicate the Licensed Material is licensed under this
+               Public License, and include the text of, or the URI or
+               hyperlink to, this Public License.
+
+       2. You may satisfy the conditions in Section 3(a)(1) in any
+          reasonable manner based on the medium, means, and context in
+          which You Share the Licensed Material. For example, it may be
+          reasonable to satisfy the conditions by providing a URI or
+          hyperlink to a resource that includes the required
+          information.
+
+       3. If requested by the Licensor, You must remove any of the
+          information required by Section 3(a)(1)(A) to the extent
+          reasonably practicable.
+
+  b. ShareAlike.
+
+     In addition to the conditions in Section 3(a), if You Share
+     Adapted Material You produce, the following conditions also apply.
+
+       1. The Adapter's License You apply must be a Creative Commons
+          license with the same License Elements, this version or
+          later, or a BY-SA Compatible License.
+
+       2. You must include the text of, or the URI or hyperlink to, the
+          Adapter's License You apply. You may satisfy this condition
+          in any reasonable manner based on the medium, means, and
+          context in which You Share Adapted Material.
+
+       3. You may not offer or impose any additional or different terms
+          or conditions on, or apply any Effective Technological
+          Measures to, Adapted Material that restrict exercise of the
+          rights granted under the Adapter's License You apply.
+
+
+Section 4 -- Sui Generis Database Rights.
+
+Where the Licensed Rights include Sui Generis Database Rights that
+apply to Your use of the Licensed Material:
+
+  a. for the avoidance of doubt, Section 2(a)(1) grants You the right
+     to extract, reuse, reproduce, and Share all or a substantial
+     portion of the contents of the database;
+
+  b. if You include all or a substantial portion of the database
+     contents in a database in which You have Sui Generis Database
+     Rights, then the database in which You have Sui Generis Database
+     Rights (but not its individual contents) is Adapted Material,
+     including for purposes of Section 3(b); and
+
+  c. You must comply with the conditions in Section 3(a) if You Share
+     all or a substantial portion of the contents of the database.
+
+For the avoidance of doubt, this Section 4 supplements and does not
+replace Your obligations under this Public License where the Licensed
+Rights include other Copyright and Similar Rights.
+
+
+Section 5 -- Disclaimer of Warranties and Limitation of Liability.
+
+  a. UNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE
+     EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS
+     AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR WARRANTIES OF
+     ANY KIND CONCERNING THE LICENSED MATERIAL, WHETHER EXPRESS,
+     IMPLIED, STATUTORY, OR OTHER. THIS INCLUDES, WITHOUT LIMITATION,
+     WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR
+     PURPOSE, NON-INFRINGEMENT, ABSENCE OF LATENT OR OTHER DEFECTS,
+     ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR NOT
+     KNOWN OR DISCOVERABLE. WHERE DISCLAIMERS OF WARRANTIES ARE NOT
+     ALLOWED IN FULL OR IN PART, THIS DISCLAIMER MAY NOT APPLY TO YOU.
+
+  b. TO THE EXTENT POSSIBLE, IN NO EVENT WILL THE LICENSOR BE LIABLE
+     TO YOU ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION,
+     NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT,
+     INCIDENTAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY, OR OTHER LOSSES,
+     COSTS, EXPENSES, OR DAMAGES ARISING OUT OF THIS PUBLIC LICENSE OR
+     USE OF THE LICENSED MATERIAL, EVEN IF THE LICENSOR HAS BEEN
+     ADVISED OF THE POSSIBILITY OF SUCH LOSSES, COSTS, EXPENSES, OR
+     DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR
+     IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.
+
+  c. The disclaimer of warranties and limitation of liability provided
+     above shall be interpreted in a manner that, to the extent
+     possible, most closely approximates an absolute disclaimer and
+     waiver of all liability.
+
+
+Section 6 -- Term and Termination.
+
+  a. This Public License applies for the term of the Copyright and
+     Similar Rights licensed here. However, if You fail to comply with
+     this Public License, then Your rights under this Public License
+     terminate automatically.
+
+  b. Where Your right to use the Licensed Material has terminated under
+     Section 6(a), it reinstates:
+
+       1. automatically as of the date the violation is cured, provided
+          it is cured within 30 days of Your discovery of the
+          violation; or
+
+       2. upon express reinstatement by the Licensor.
+
+     For the avoidance of doubt, this Section 6(b) does not affect any
+     right the Licensor may have to seek remedies for Your violations
+     of this Public License.
+
+  c. For the avoidance of doubt, the Licensor may also offer the
+     Licensed Material under separate terms or conditions or stop
+     distributing the Licensed Material at any time; however, doing so
+     will not terminate this Public License.
+
+  d. Sections 1, 5, 6, 7, and 8 survive termination of this Public
+     License.
+
+
+Section 7 -- Other Terms and Conditions.
+
+  a. The Licensor shall not be bound by any additional or different
+     terms or conditions communicated by You unless expressly agreed.
+
+  b. Any arrangements, understandings, or agreements regarding the
+     Licensed Material not stated herein are separate from and
+     independent of the terms and conditions of this Public License.
+
+
+Section 8 -- Interpretation.
+
+  a. For the avoidance of doubt, this Public License does not, and
+     shall not be interpreted to, reduce, limit, restrict, or impose
+     conditions on any use of the Licensed Material that could lawfully
+     be made without permission under this Public License.
+
+  b. To the extent possible, if any provision of this Public License is
+     deemed unenforceable, it shall be automatically reformed to the
+     minimum extent necessary to make it enforceable. If the provision
+     cannot be reformed, it shall be severed from this Public License
+     without affecting the enforceability of the remaining terms and
+     conditions.
+
+  c. No term or condition of this Public License will be waived and no
+     failure to comply consented to unless expressly agreed to by the
+     Licensor.
+
+  d. Nothing in this Public License constitutes or may be interpreted
+     as a limitation upon, or waiver of, any privileges and immunities
+     that apply to the Licensor or You, including from the legal
+     processes of any jurisdiction or authority.
+
+
+=======================================================================
+
+Creative Commons is not a party to its public
+licenses. Notwithstanding, Creative Commons may elect to apply one of
+its public licenses to material it publishes and in those instances
+will be considered the “Licensor.” The text of the Creative Commons
+public licenses is dedicated to the public domain under the CC0 Public
+Domain Dedication. Except for the limited purpose of indicating that
+material is shared under a Creative Commons public license or as
+otherwise permitted by the Creative Commons policies published at
+creativecommons.org/policies, Creative Commons does not authorize the
+use of the trademark "Creative Commons" or any other trademark or logo
+of Creative Commons without its prior written consent including,
+without limitation, in connection with any unauthorized modifications
+to any of its public licenses or any other arrangements,
+understandings, or agreements concerning use of licensed material. For
+the avoidance of doubt, this paragraph does not form part of the
+public licenses.
+
+Creative Commons may be contacted at creativecommons.org.
+
+
+Visuels des exercices
+Dessins originaux Mieux vivre (illustration des mouvements d’après les fiches du catalogue).
+Illustrations sources wger sélectionnées ci-dessous. Miniatures recompressées au format WebP.
+Les tirets signalent les champs d’attribution non fournis par wger.
+
+Exercice	Illustration	Titre source	Crédit	Licence	Source	Fiche du média
+152	./catalogue-images/wger-73.webp	—	Everkinetic	https://creativecommons.org/licenses/by-sa/3.0/deed.en	https://wger.de/media/exercise-images/152/6c1a7459-266d-491a-bd50-7cbaea2bc771.png	https://wger.de/api/v2/exerciseimage/73/
+152	./catalogue-images/wger-75.webp	—	Everkinetic	https://creativecommons.org/licenses/by-sa/3.0/deed.en	https://wger.de/media/exercise-images/152/b2c5a9f9-8beb-41f7-841c-9664d22a427e.png	https://wger.de/api/v2/exerciseimage/75/
+171	./catalogue-images/wger-135.webp	—	Everkinetic	https://creativecommons.org/licenses/by-sa/3.0/deed.en	https://wger.de/media/exercise-images/56/Decline-crunch-1.png	https://wger.de/api/v2/exerciseimage/135/
+171	./catalogue-images/wger-136.webp	—	Everkinetic	https://creativecommons.org/licenses/by-sa/3.0/deed.en	https://wger.de/media/exercise-images/56/Decline-crunch-2.png	https://wger.de/api/v2/exerciseimage/136/
+194	./catalogue-images/wger-211.webp	—	cshep442	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/194/34600351-8b0b-4cb0-8daa-583537be15b0.png	https://wger.de/api/v2/exerciseimage/211/
+197	./catalogue-images/wger-35.webp	—	Everkinetic	https://creativecommons.org/licenses/by-sa/3.0/deed.en	https://wger.de/media/exercise-images/83/Bench-dips-1.png	https://wger.de/api/v2/exerciseimage/35/
+197	./catalogue-images/wger-36.webp	—	Everkinetic	https://creativecommons.org/licenses/by-sa/3.0/deed.en	https://wger.de/media/exercise-images/83/Bench-dips-2.png	https://wger.de/api/v2/exerciseimage/36/
+265	./catalogue-images/wger-712.webp	—	—	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/265/7528acb4-b2cc-4b75-b6ae-d514cbd4f78b.png	https://wger.de/api/v2/exerciseimage/712/
+301	./catalogue-images/wger-11.webp	—	Everkinetic	https://creativecommons.org/licenses/by-sa/3.0/deed.en	https://wger.de/media/exercise-images/128/Hyperextensions-1.png	https://wger.de/api/v2/exerciseimage/11/
+301	./catalogue-images/wger-12.webp	—	Everkinetic	https://creativecommons.org/licenses/by-sa/3.0/deed.en	https://wger.de/media/exercise-images/128/Hyperextensions-2.png	https://wger.de/api/v2/exerciseimage/12/
+377	./catalogue-images/wger-139.webp	—	Everkinetic	https://creativecommons.org/licenses/by-sa/3.0/deed.en	https://wger.de/media/exercise-images/125/Leg-raises-2.png	https://wger.de/api/v2/exerciseimage/139/
+377	./catalogue-images/wger-140.webp	—	Everkinetic	https://creativecommons.org/licenses/by-sa/3.0/deed.en	https://wger.de/media/exercise-images/125/Leg-raises-1.png	https://wger.de/api/v2/exerciseimage/140/
+427	./catalogue-images/wger-7.webp	—	—	https://creativecommons.org/licenses/by-sa/3.0/deed.en	https://wger.de/media/exercise-images/93/Decline-crunch-1.png	https://wger.de/api/v2/exerciseimage/7/
+427	./catalogue-images/wger-8.webp	—	—	https://creativecommons.org/licenses/by-sa/3.0/deed.en	https://wger.de/media/exercise-images/93/Decline-crunch-2.png	https://wger.de/api/v2/exerciseimage/8/
+458	./catalogue-images/wger-346.webp	—	utkb	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/458/b7bd9c28-9f1d-4647-bd17-ab6a3adf5770.png	https://wger.de/api/v2/exerciseimage/346/
+458	./catalogue-images/wger-347.webp	—	utkb	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/458/902e6836-394e-458b-b94e-101d714294e2.png	https://wger.de/api/v2/exerciseimage/347/
+475	./catalogue-images/wger-323.webp	—	Imobard	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/475/b0554016-16fd-4dbe-be47-a2a17d16ae0e.jpg	https://wger.de/api/v2/exerciseimage/323/
+957	./catalogue-images/wger-271.webp	—	utkb	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/957/0fd94587-6021-4763-856e-7227f5fcba2a.png	https://wger.de/api/v2/exerciseimage/271/
+983	./catalogue-images/wger-676.webp	—	—	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/983/16245344-9957-4a24-8d61-f9939ed5f964.png	https://wger.de/api/v2/exerciseimage/676/
+999	./catalogue-images/wger-335.webp	—	philip	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/999/d0931eb3-8db0-4049-bb08-aa4036072056.jfif	https://wger.de/api/v2/exerciseimage/335/
+999	./catalogue-images/wger-336.webp	—	philip	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/999/8548b2d2-004d-48b4-95fd-b1b25f4e53d0.jfif	https://wger.de/api/v2/exerciseimage/336/
+1018	./catalogue-images/wger-688.webp	—	—	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1018/5bbd3879-b6fc-4aaa-9e8e-33ae9a688112.png	https://wger.de/api/v2/exerciseimage/688/
+1018	./catalogue-images/wger-689.webp	—	—	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1018/5f84cb9b-2d3a-48ff-87ec-b3d3950841f1.png	https://wger.de/api/v2/exerciseimage/689/
+1080	./catalogue-images/wger-322.webp	—	Imobard	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1080/c4bf7ba1-6058-4d14-928f-7187885d5d57.webp	https://wger.de/api/v2/exerciseimage/322/
+1086	./catalogue-images/wger-326.webp	—	philip	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1086/b2ee8d9b-0480-4992-8494-c223b37c2696.jpg	https://wger.de/api/v2/exerciseimage/326/
+1091	./catalogue-images/wger-334.webp	—	clafal	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1091/50c8912d-54ef-46c9-99d1-633b6196aa1e.jpg	https://wger.de/api/v2/exerciseimage/334/
+1105	./catalogue-images/wger-344.webp	—	utkb	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1105/36776818-799a-40bf-9eca-aebb3aa5008f.png	https://wger.de/api/v2/exerciseimage/344/
+1112	./catalogue-images/wger-357.webp	—	anon1337	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1112/81f40bee-4adf-4317-8476-1a87706e3031.png	https://wger.de/api/v2/exerciseimage/357/
+1141	./catalogue-images/wger-409.webp	—	cleen	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1141/c7be1cd1-46c5-4a86-a114-5f0fe861c3e0.jpg	https://wger.de/api/v2/exerciseimage/409/
+1198	./catalogue-images/wger-428.webp	—	Gavru	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1198/864906ac-4ac7-4e52-a886-c6bb97950a9f.jpg	https://wger.de/api/v2/exerciseimage/428/
+1217	./catalogue-images/wger-440.webp	—	—	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1217/590e65db-de60-4727-b7eb-55f80af56043.png	https://wger.de/api/v2/exerciseimage/440/
+1223	./catalogue-images/wger-441.webp	Claps over the head	Lynn_McIntyre	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1223/bf20836a-23b0-4f50-8b98-cfdd97684527.webp	https://wger.de/api/v2/exerciseimage/441/
+1230	./catalogue-images/wger-448.webp	—	anonymous	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1230/9fd1e2fd-f2c4-432d-b3ae-5e5f24085777.webp	https://wger.de/api/v2/exerciseimage/448/
+1231	./catalogue-images/wger-449.webp	—	anonymous	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1231/b10457ce-5fa5-4d20-a32f-3c7100c6a9d9.webp	https://wger.de/api/v2/exerciseimage/449/
+1232	./catalogue-images/wger-450.webp	—	anonymous	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1232/2b6de046-5806-49e3-bf36-b6fae16af021.png	https://wger.de/api/v2/exerciseimage/450/
+1233	./catalogue-images/wger-451.webp	—	anonymous	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1233/d7d6f9e1-7834-4cca-bd3b-f9def33ff44d.png	https://wger.de/api/v2/exerciseimage/451/
+1239	./catalogue-images/wger-452.webp	Standing Calf Stretch	erikocobra	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1239/5026373a-a7b4-4e26-a0aa-c46634205196.jpg	https://wger.de/api/v2/exerciseimage/452/
+1243	./catalogue-images/wger-453.webp	Double Leg Calf Raise	erikocobra	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1243/53d4fabe-c994-4907-873f-8d82813a9832.png	https://wger.de/api/v2/exerciseimage/453/
+1274	./catalogue-images/wger-454.webp	Seated Calf Stretch (Dorsiflexion)	erikocobra	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1274/bcffdf52-3c36-4b0c-b787-fb84f20bf82d.png	https://wger.de/api/v2/exerciseimage/454/
+1285	./catalogue-images/wger-460.webp	Extension de genoux	painDpice	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1285/1ab8005d-41e4-4505-9a7d-5277d59bb3cd.jpg	https://wger.de/api/v2/exerciseimage/460/
+1325	./catalogue-images/wger-476.webp	—	cleen	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1325/d8372291-6725-452a-9711-6321c061e354.jpg	https://wger.de/api/v2/exerciseimage/476/
+1377	./catalogue-images/wger-513.webp	Standing Torso Twist	brucem	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1377/12e7a231-d36a-4992-bf57-ff7bfe0f3ae4.jpg	https://wger.de/api/v2/exerciseimage/513/
+1387	./catalogue-images/wger-519.webp	raised leg	captive0592	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1387/a2cf7eda-5540-4105-b30e-1c2f2679a6c7.png	https://wger.de/api/v2/exerciseimage/519/
+1452	./catalogue-images/wger-639.webp	—	Davidgj32	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1452/85a6b9de-4eec-445b-8ebb-f1950b076aba.png	https://wger.de/api/v2/exerciseimage/639/
+1479	./catalogue-images/wger-565.webp	—	—	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1479/0305d98e-0887-4c0c-8992-7c220814efc2.webp	https://wger.de/api/v2/exerciseimage/565/
+1738	./catalogue-images/wger-605.webp	—	54str	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1738/0529acdf-ede8-42a2-a3e5-8d0c57b7a0e1.jpg	https://wger.de/api/v2/exerciseimage/605/
+1804	./catalogue-images/wger-617.webp	—	Davidgj32	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1804/691c69b8-c3db-4177-8435-dd3a97d88542.webp	https://wger.de/api/v2/exerciseimage/617/
+1854	./catalogue-images/wger-622.webp	—	Davidgj32	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1854/ccd3c18e-c864-426f-8176-15dce14305e3.webp	https://wger.de/api/v2/exerciseimage/622/
+1855	./catalogue-images/wger-623.webp	—	Davidgj32	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1855/a6597ed8-1613-4458-ba56-4b63bc946a35.webp	https://wger.de/api/v2/exerciseimage/623/
+1856	./catalogue-images/wger-624.webp	—	Davidgj32	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1856/19c31c63-4968-4887-b8e6-4127be27fdde.jpg	https://wger.de/api/v2/exerciseimage/624/
+1857	./catalogue-images/wger-625.webp	—	Davidgj32	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1857/92291128-cc7e-4f70-9663-80840c516fc9.jpg	https://wger.de/api/v2/exerciseimage/625/
+1858	./catalogue-images/wger-626.webp	—	Davidgj32	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1858/058b6fdb-8093-4b6d-a504-cbf869f3e3d3.jpg	https://wger.de/api/v2/exerciseimage/626/
+1859	./catalogue-images/wger-627.webp	—	Davidgj32	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1859/2465d5eb-c249-454d-93eb-58aa13bdc080.webp	https://wger.de/api/v2/exerciseimage/627/
+1860	./catalogue-images/wger-628.webp	—	Davidgj32	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1860/f0410e66-28d5-455f-90f3-d078e0988460.avif	https://wger.de/api/v2/exerciseimage/628/
+1861	./catalogue-images/wger-629.webp	—	Davidgj32	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1861/0ffe4e99-71ad-47fb-b98c-1f243faa0499.png	https://wger.de/api/v2/exerciseimage/629/
+1862	./catalogue-images/wger-630.webp	—	Davidgj32	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1862/93d993f8-1d8c-4e21-99c6-08b2fe424a17.png	https://wger.de/api/v2/exerciseimage/630/
+1863	./catalogue-images/wger-631.webp	—	Davidgj32	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1863/5f29959d-0fd1-46d2-98b7-0c2cb5d9ee13.png	https://wger.de/api/v2/exerciseimage/631/
+1864	./catalogue-images/wger-632.webp	—	Davidgj32	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1864/5970cdd8-0123-4eba-a921-2157fb6adacf.png	https://wger.de/api/v2/exerciseimage/632/
+1867	./catalogue-images/wger-635.webp	—	Davidgj32	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1867/767631e5-10d2-46b8-b03f-cc298f96963b.png	https://wger.de/api/v2/exerciseimage/635/
+1868	./catalogue-images/wger-636.webp	—	Davidgj32	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1868/446e7065-215d-4a91-9da7-9416101442bb.png	https://wger.de/api/v2/exerciseimage/636/
+1869	./catalogue-images/wger-637.webp	—	Davidgj32	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1869/c49187bd-9f90-4a7a-b25e-1d50e857a104.png	https://wger.de/api/v2/exerciseimage/637/
+1872	./catalogue-images/wger-640.webp	—	Davidgj32	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1872/df982df1-512a-4eb9-acd9-68cc1c265df6.png	https://wger.de/api/v2/exerciseimage/640/
+1874	./catalogue-images/wger-642.webp	—	Davidgj32	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1874/66fca8a5-41e8-42d1-8776-5e46a4902650.png	https://wger.de/api/v2/exerciseimage/642/
+1875	./catalogue-images/wger-643.webp	—	Davidgj32	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1875/e1128391-4b73-43a9-ab27-657d8bb43083.png	https://wger.de/api/v2/exerciseimage/643/
+1876	./catalogue-images/wger-644.webp	—	Davidgj32	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1876/ca7b3fe7-5908-4ec2-9d85-7fa1b80bb105.png	https://wger.de/api/v2/exerciseimage/644/
+1889	./catalogue-images/wger-646.webp	—	nishant0712	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1889/bc51ef67-0c12-4340-a36c-42ef722778dd.png	https://wger.de/api/v2/exerciseimage/646/
+1916	./catalogue-images/wger-653.webp	Tuck planche	ISSACS	https://creativecommons.org/licenses/by-sa/4.0/deed.en	https://wger.de/media/exercise-images/1916/e7d97b4b-9fe4-4378-aea3-5a9d93b6eb8d.png	https://wger.de/api/v2/exerciseimage/653/

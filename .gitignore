@@ -1,0 +1,12 @@
+# Sorties de compilation
+build/
+DerivedData/
+outputs/
+
+# Réglages Xcode propres à la machine
+xcuserdata/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+
+# macOS
+.DS_Store

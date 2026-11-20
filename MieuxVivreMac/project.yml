@@ -1,0 +1,50 @@
+name: MieuxVivreMac
+
+options:
+  bundleIdPrefix: com.remi
+  deploymentTarget:
+    macOS: "13.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "4.9"
+    CURRENT_PROJECT_VERSION: "17"
+    CODE_SIGN_IDENTITY: "-"
+    CODE_SIGN_STYLE: Manual
+    PROVISIONING_PROFILE_SPECIFIER: ""
+    DEVELOPMENT_TEAM: ""
+    ENABLE_HARDENED_RUNTIME: NO
+    SWIFT_EMIT_LOC_STRINGS: NO
+
+targets:
+  MieuxVivreMac:
+    type: application
+    platform: macOS
+    deploymentTarget: "13.0"
+    sources:
+      - path: Sources
+      - path: ../MieuxVivre/Web
+        type: folder
+        buildPhase: resources
+      - path: Resources/Assets.xcassets
+        buildPhase: resources
+    info:
+      path: Resources/Info.plist
+      properties:
+        CFBundleDisplayName: Mieux vivre
+        CFBundleShortVersionString: "4.9"
+        CFBundleVersion: "17"
+        CFBundleIconFile: AppIcon
+        LSMinimumSystemVersion: "13.0"
+        NSHighResolutionCapable: true
+        NSPrincipalClass: NSApplication
+        NSSupportsSuddenTermination: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.remi.mieuxvivre.mac
+        PRODUCT_NAME: Mieux vivre
+        COMBINE_HIDPI_IMAGES: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon

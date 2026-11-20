@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4f7fb">
+  <meta name="description" content="Carnet personnel pour noter son humeur, ses activités et sa récupération.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'none'">
+  <meta name="color-scheme" content="light dark">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Mieux vivre">
+  
+  <link rel="icon" type="image/png" href="./projets/mieux-vivre/icon-192.png">
+  <link rel="apple-touch-icon" href="./projets/mieux-vivre/icon-192.png">
+  <link rel="stylesheet" href="./projets/mieux-vivre/styles.css">
+  <title>Mieux vivre · Carnet de santé</title>
+  <script src="./projets/mieux-vivre/appearance.js" defer></script>
+  <script src="./projets/mieux-vivre/program-data.js" defer></script>
+  <script src="./projets/mieux-vivre/guide.js" defer></script>
+  <link rel="stylesheet" href="./projets/carnet-sante/carnet.css">
+  <link rel="stylesheet" href="./projets/carnet-sante/movement.css">
+  <link rel="stylesheet" href="./projets/carnet-sante/catalogue-exercices.css">
+  <link rel="license" href="./projets/carnet-sante/catalogue-licence.txt">
+  <link rel="stylesheet" href="./projets/carnet-sante/navigation.css">
+  <script src="./projets/carnet-sante/carnet.js" defer></script>
+  <script src="./projets/a-mon-rythme/journal.js" defer></script>
+  <script src="./projets/carnet-sante/catalogue-donnees.js" defer></script>
+  <script src="./projets/carnet-sante/catalogue-visuels.js" defer></script>
+  <script src="./projets/carnet-sante/catalogue-exercices.js" defer></script>
+  <script src="./projets/mieux-vivre/app.js" defer></script>
+</head>
+<body class="carnet-unifie">
+  <svg class="icon-library" aria-hidden="true" focusable="false"><symbol id="mv-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M5 19l2-2M17 7l2-2"/></symbol><symbol id="mv-moon" viewBox="0 0 24 24"><path d="M19.9 15.6A9 9 0 0 1 8.4 4.1a8.4 8.4 0 1 0 11.5 11.5Z"/></symbol><symbol id="mv-sprout" viewBox="0 0 24 24"><path d="M12 22V12m0 6C5 18 3 14 3 8c6 0 9 3 9 8m0-2c0-5 3-9 9-9 0 5-3 9-9 9M6 22h12"/></symbol><symbol id="mv-book" viewBox="0 0 24 24"><path d="M12 5c-3-2-6-2-9-1v15c3-1 6-1 9 1 3-2 6-2 9-1V4c-3-1-6-1-9 1Zm0 0v15"/></symbol><symbol id="mv-chart" viewBox="0 0 24 24"><path d="M3 3v18h18M7 16l4-5 4 2 5-6"/><circle cx="20" cy="7" r="1"/></symbol><symbol id="mv-heart" viewBox="0 0 24 24"><path d="M12 21 4 13a5 5 0 0 1 8-6 5 5 0 0 1 8 6z"/></symbol><symbol id="mv-lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 1 1 8 0v3m-4 5v2"/></symbol><symbol id="mv-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M7 3v4m10-4v4M3 10h18m-13 5h3m3 0h2"/></symbol><symbol id="mv-mood" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 10h.01m8 0h.01M8 14q4 4 8 0"/></symbol><symbol id="mv-energy" viewBox="0 0 24 24"><path d="m13 2-8 12h6l-1 8 9-12h-6z"/></symbol><symbol id="mv-pulse" viewBox="0 0 24 24"><path d="M2 12h5l3-6 4 12 3-6h5"/></symbol><symbol id="mv-sleep" viewBox="0 0 24 24"><path d="M3 18V6m0 9h18v3m-18-6h6a3 3 0 0 1 3 3m0-5h5a4 4 0 0 1 4 4v1"/></symbol><symbol id="mv-music" viewBox="0 0 24 24"><path d="M9 17V5l11-2v12m-11-6 11-2"/><ellipse cx="6" cy="18" rx="3" ry="2"/><ellipse cx="17" cy="16" rx="3" ry="2"/></symbol><symbol id="mv-chat" viewBox="0 0 24 24"><path d="M20 11a7 7 0 0 1-7 7H9l-5 3 1-5a6 6 0 0 1-1-4 7 7 0 0 1 7-7h2a7 7 0 0 1 7 6Z"/><path d="M8 11h8"/></symbol><symbol id="mv-air" viewBox="0 0 24 24"><path d="M2 8h12a2 2 0 1 0-2-2M2 12h17a2 2 0 1 1-2 2M2 16h8a2 2 0 1 1-2 2"/></symbol><symbol id="mv-check" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="m8 12 3 3 5-6"/></symbol><symbol id="mv-photo" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="8" cy="9" r="1.5"/><path d="m4 17 5-4 3 2 4-4 4 3"/></symbol><symbol id="mv-cup" viewBox="0 0 24 24"><path d="M3 8h14v5a6 6 0 0 1-6 6H9a6 6 0 0 1-6-6zm14 1h2a2 2 0 0 1 0 4h-2M8 2v3m4-3v3M2 22h19"/></symbol><symbol id="mv-pencil" viewBox="0 0 24 24"><path d="m4 16-1 5 5-1L20 8l-4-4L4 16zm10-10 4 4"/></symbol><symbol id="mv-steps" viewBox="0 0 24 24"><path d="M2 19h5v-5h5V9h5V4h5M3 22h19"/></symbol><symbol id="mv-focus" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 1v3m0 16v3M1 12h3m16 0h3"/></symbol><symbol id="mv-leaf" viewBox="0 0 24 24"><path d="M21 3C10 3 4 7 4 14a6 6 0 0 0 6 6c7 0 11-6 11-17ZM3 21l10-10"/></symbol><symbol id="mv-shield" viewBox="0 0 24 24"><path d="M12 2 4 6v6c0 4 4 8 8 10 4-2 8-6 8-10V6zm-3 10 2 2 4-4"/></symbol></svg>
+  <a class="skip-link" href="#main">Aller au contenu principal</a>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 36 36" fill="none"><path d="M7 24c6-1 7-13 13-13 5 0 4 13 9 14" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/><circle cx="27" cy="9" r="3" fill="currentColor"/></svg></span>
+      <span>Mieux vivre<small class="carnet-brand-detail">Carnet de santé</small></span>
+    </div>
+    <div class="top-actions"><button id="open-appearance" class="theme-link" type="button" aria-haspopup="dialog"><svg class="glyph" aria-hidden="true" focusable="false"><use href="#mv-moon"/></svg>Thème</button><button id="quick-help" class="help-link" type="button"><svg class="glyph" aria-hidden="true" focusable="false"><use href="#mv-heart"/></svg>Aide</button></div>
+  </header>
+  <div class="layout">
+    <nav class="sidebar" aria-label="Navigation du carnet"><button class="nav-item" type="button" data-view="home"><svg class="glyph" aria-hidden="true"><use href="#mv-book"/></svg><span>Mon carnet</span></button><button class="nav-item" type="button" data-view="activities"><svg class="glyph" aria-hidden="true"><use href="#mv-sprout"/></svg><span>Mes repères</span></button><button class="nav-item" type="button" data-view="insights"><svg class="glyph" aria-hidden="true"><use href="#mv-chart"/></svg><span>Historique</span></button></nav>
+    <main id="main" tabindex="-1">
+      <section id="view-home" class="view" aria-labelledby="carnet-home-title">
+  <header class="carnet-heading">
+    <h1 id="carnet-home-title" tabindex="-1">Ma journée</h1>
+    <p id="carnet-day-heading" class="sr-only"></p>
+    <div class="carnet-datebar">
+      <label for="carnet-date" class="visually-hidden">Date du carnet</label>
+      <input type="date" id="carnet-date" min="2000-01-01" required>
+      <button type="button" id="carnet-today" class="btn btn-ghost">Aujourd’hui</button>
+    </div>
+    <noscript><p>Active JavaScript pour utiliser le carnet.</p></noscript>
+  </header>
+
+  <nav class="carnet-shortcuts" aria-label="Dans ma journée">
+    <button type="button" data-goto="today"><svg class="glyph" aria-hidden="true"><use href="#mv-mood"/></svg>Humeur</button>
+    <button type="button" data-goto="movement"><svg class="glyph" aria-hidden="true"><use href="#mv-steps"/></svg>Activité</button>
+  </nav>
+
+  <section id="view-today" class="carnet-entry" aria-labelledby="today-title">
+      <h2 id="today-title"><svg class="glyph" aria-hidden="true"><use href="#mv-mood"/></svg>Humeur</h2>
+      <p id="today-date" hidden></p>
+      <form id="checkin-form" class="card checkin-card" autocomplete="off" tabindex="-1">
+                    <div class="slider-grid">
+            <div class="field"><div class="range-top"><label for="mood"><svg class="glyph" aria-hidden="true" focusable="false"><use href="#mv-mood"/></svg>Mon humeur</label><output for="mood" id="mood-value">Moyenne</output></div><input id="mood" name="mood" type="range" min="0" max="4" step="1" value="2"></div>
+            <div class="field"><div class="range-top"><label for="energy"><svg class="glyph" aria-hidden="true" focusable="false"><use href="#mv-energy"/></svg>Mon énergie</label><output for="energy" id="energy-value">Faible</output></div><input id="energy" name="energy" type="range" min="0" max="3" step="1" value="1"></div>
+            <div class="field" hidden><div class="range-top"><label for="pain"><svg class="glyph" aria-hidden="true" focusable="false"><use href="#mv-pulse"/></svg>Mes douleurs ou gênes physiques</label><output for="pain" id="pain-value">Modérées</output></div><input id="pain" name="pain" type="range" min="0" max="4" step="1" value="2"></div>
+          </div>
+          <details class="thoughts-field carnet-entry-options">
+            <summary>Pensées difficiles (facultatif)</summary>
+            <label for="thoughts">Pensées ou images suicidaires ce jour-là (facultatif)</label>
+            <p>Tu peux ne pas répondre. Cette question ne détermine pas ton niveau de risque.</p>
+            <select id="thoughts" name="thoughts">
+              <option value="">Je préfère ne pas répondre</option>
+              <option value="none">Pas aujourd'hui</option>
+              <option value="present">Présentes, sans intention d'agir déclarée</option>
+              <option value="unsafe">Je ne suis pas sûr·e de pouvoir rester en sécurité</option>
+            </select>
+            <div id="thoughts-support" class="help-inline" hidden role="status" aria-live="polite"></div>
+          </details>
+          <div class="card-footer"><span id="saved-checkin" class="soft-note">Rien n'est envoyé sur Internet.</span><button class="btn btn-primary" type="submit">Enregistrer mon humeur</button></div>
+        </form>
+      <details class="carnet-entry-options">
+        <summary>Suggestions et activités prévues</summary>
+        <div class="section-head section-gap"><div><h2><svg class="glyph" aria-hidden="true" focusable="false"><use href="#mv-sprout"/></svg>Une petite possibilité pour aujourd'hui</h2><p>Tu peux essayer, adapter ou ignorer ces propositions.</p></div><button class="text-button" id="all-activities" type="button">Tout voir <span aria-hidden="true">→</span></button></div>
+        <div id="today-recs" class="card-list" aria-live="polite"></div>
+        <div class="section-head section-gap"><div><h2><svg class="glyph" aria-hidden="true" focusable="false"><use href="#mv-calendar"/></svg>Ce que j'ai prévu</h2><p>Des intentions souples, pas des obligations.</p></div></div>
+        <div id="planned-list" class="plan-list"></div>
+        <div class="gentle-banner"><span class="banner-icon"><svg class="glyph" aria-hidden="true" focusable="false"><use href="#mv-heart"/></svg></span><div><strong>Une journée compliquée ?</strong><p>Tu peux passer en mode minimum, sans objectifs à atteindre.</p></div><button type="button" class="btn btn-ghost" data-goto="difficult">Mode minimum</button></div>
+      
+      </details>
+    </section>
+<section id="view-movement" class="carnet-entry" aria-labelledby="carnet-movement-title">
+      <h2 id="carnet-movement-title"><svg class="glyph" aria-hidden="true"><use href="#mv-steps"/></svg>Activité et récupération</h2>
+      <div id="sport-carnet"><section class="panel" aria-labelledby="dayTitle">
+  <h3 id="dayTitle" tabindex="-1">Séance du jour</h3>
+  <p class="entry-state" id="entry-state"></p>
+  <form id="entry" autocomplete="off">
+    <fieldset>
+      <legend>Ton état aujourd’hui</legend>
+      <div class="choices">
+        <label class="choice"><input type="radio" name="state" value="stable">État habituel</label>
+        <label class="choice"><input type="radio" name="state" value="fragile">Journée difficile</label>
+        <label class="choice"><input type="radio" name="state" value="pause">Repos</label>
+      </div>
+    </fieldset>
+
+    <fieldset class="session-ratings">
+      <legend>Ton ressenti <span class="hint">(facultatif)</span></legend>
+      <p class="hint" id="scales">De 0 (aucune) à 10 (maximale)</p>
+      <div class="grid">
+        <div class="session-rating">
+          <div class="range-top"><label for="movement-pain">Douleur</label><output for="movement-pain" id="movement-pain-value">Non renseignée</output></div>
+          <input id="movement-pain" type="range" min="0" max="10" value="5" aria-describedby="scales">
+          <button type="button" data-clear-rating="movement-pain" aria-label="Effacer le niveau de douleur" hidden>Effacer</button>
+        </div>
+        <div class="session-rating">
+          <div class="range-top"><label for="fatigue">Fatigue</label><output for="fatigue" id="fatigue-value">Non renseignée</output></div>
+          <input id="fatigue" type="range" min="0" max="10" value="5" aria-describedby="scales">
+          <button type="button" data-clear-rating="fatigue" aria-label="Effacer le niveau de fatigue" hidden>Effacer</button>
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Ce que tu as fait</legend>
+      <p class="hint">Coche les activités faites aujourd’hui. Les noms restent proposés les jours suivants.</p>
+      <div id="session-activities"></div>
+      <div class="session-activity-actions">
+        <button id="add-activity" type="button">Ajouter une activité</button>
+        <button id="show-activities" type="button" aria-expanded="false" aria-controls="session-activities" hidden>Voir les autres activités</button>
+      </div>
+      <template id="activity-row">
+        <div class="session-activity" role="group">
+          <label class="session-activity-check"><input type="checkbox" name="activityDone"><span class="visually-hidden">Activité faite</span></label>
+          <label class="session-activity-name"><span class="visually-hidden">Nom de l’activité</span><input type="text" name="activityName" maxlength="80" placeholder="Ex. Piscine"></label>
+          <label class="session-activity-duration" hidden><span class="visually-hidden">Durée facultative en minutes</span><input type="number" name="activityMinutes" inputmode="numeric" min="0" max="1440" step="1" placeholder="min" disabled></label>
+          <button type="button" data-remove-activity><span aria-hidden="true">×</span></button>
+        </div>
+      </template>
+      <p id="session-movements" class="hint" hidden></p>
+    </fieldset>
+
+    <div class="reaction" id="recovery">
+      <label for="reaction">Ma récupération depuis hier</label>
+      <select id="reaction">
+        <option value="">Non renseignée</option>
+        <option value="same">Comme d’habitude ou mieux</option>
+        <option value="slight">Gêne légère, puis retour à mon état habituel</option>
+        <option value="worse">Douleur ou fatigue plus forte</option>
+        <option value="none">Repos hier</option>
+      </select>
+    </div>
+    <details id="extra">
+      <summary>Ajouter un poids ou une note</summary>
+      <div class="grid">
+        <div class="field"><label for="weight">Poids (kg)</label><input id="weight" type="text" inputmode="decimal" maxlength="6" pattern="[0-9]{1,3}([,.][0-9]{1,2})?" title="Par exemple 83,5"></div>
+        <div class="field"><label for="note">Note libre</label><textarea id="note" maxlength="300"></textarea></div>
+      </div>
+    </details>
+    <div class="actions">
+      <button type="submit" class="primary">Enregistrer la séance</button>
+      <button type="button" id="remove" hidden>Supprimer cette journée</button>
+    </div>
+    <p id="status" class="status" role="status"></p>
+  </form>
+</section>
+<details id="backup-options" class="panel">
+  <summary>Sauvegarder ou restaurer mes activités</summary>
+  <p class="hint">L’import ajoute les dates absentes. Les fiches existantes restent en place. Le fichier JSON est lisible sans mot de passe.</p>
+  <div class="actions">
+    <button type="button" id="export">Exporter une sauvegarde</button>
+    <button type="button" id="import">Importer une sauvegarde</button>
+    <input type="file" id="backup" accept=".json,application/json" aria-label="Fichier de sauvegarde" hidden>
+  </div>
+  <p class="status" id="backupStatus" role="status"></p>
+</details>
+</div>
+    </section>
+
+  <p class="carnet-storage">
+    <svg class="glyph" aria-hidden="true"><use href="#mv-lock"/></svg>
+    <span>Tes saisies restent sur cet appareil.</span>
+  </p>
+</section>
+
+<section id="view-activities" class="view" aria-labelledby="activities-title" hidden>
+        <div class="intro vignette-intro"><span class="intro-vignette"><svg class="glyph" aria-hidden="true" focusable="false"><use href="#mv-sprout"/></svg></span><h1 id="activities-title">Mes repères</h1><p>Retrouve tes favoris et choisis une activité à ton rythme.</p></div>
+        <section id="catalogue-favoris" class="catalogue-favorites" aria-labelledby="catalogue-favorites-title">
+  <header class="catalogue-favorites-header">
+    <h2 id="catalogue-favorites-title">Mes exercices favoris</h2>
+    <a class="catalogue-favorites-link" href="#catalogue-title">Voir les exercices</a>
+  </header>
+  <p id="catalogue-favorites-empty">Touche l’étoile d’un exercice pour le retrouver ici.</p>
+  <ul id="catalogue-favorites-list" class="catalogue-results"></ul>
+</section>
+
+        <nav class="view-shortcuts" aria-label="Dans les repères"><a href="#suggestions-title">Voir les activités</a><a href="#custom-title-heading">Créer une activité</a><a href="#exercices-courts">Exercices courts</a><a href="#catalogue-exercices">Exercices au poids du corps</a></nav>
+        <section class="carnet-reperes-suggestions" aria-labelledby="suggestions-title"><div class="section-head"><div><h2 id="suggestions-title" tabindex="-1">Activités à essayer</h2></div><p id="activity-count" class="footnote" role="status"></p></div>
+        <div class="filter-line"><label for="category-filter">Catégorie</label><select id="category-filter"><option value="all">Toutes les catégories</option><option value="plaisir">Plaisir</option><option value="lien">Lien social</option><option value="maitrise">Sentiment de maîtrise</option><option value="douceur">Gestes doux</option></select></div>
+        <div id="activity-library" class="carnet-suggestions"></div>
+        <button id="activity-more" class="btn btn-ghost" type="button" aria-controls="activity-library" aria-expanded="false" hidden>Voir toutes les activités</button></section>
+        <form id="custom-activity-form" class="card safety-form" autocomplete="off">
+<div class="section-head section-gap"><div><h2 id="custom-title-heading" tabindex="-1">Créer mon activité</h2><p>Choisis un petit pas et une durée qui te conviennent.</p></div></div>
+          <label for="custom-title">Mon petit pas</label>
+          <input id="custom-title" type="text" maxlength="90" required placeholder="Ex. : dessiner cinq minutes">
+          <label for="custom-desc">Description courte (facultatif)</label>
+          <textarea id="custom-desc" maxlength="220" rows="2" placeholder="Comment rendre cela accessible ?"></textarea>
+          <div class="form-grid">
+            <div><label for="custom-category">Ce que cela m'apporte</label><select id="custom-category"><option value="plaisir">Plaisir</option><option value="lien">Lien social</option><option value="maitrise">Maîtrise</option><option value="douceur">Geste doux</option></select></div>
+            <div><label for="custom-minutes">Durée approximative</label><select id="custom-minutes"><option value="2">2 minutes</option><option value="5" selected>5 minutes</option><option value="10">10 minutes</option><option value="15">15 minutes</option><option value="20">20 minutes</option><option value="30">30 minutes</option></select></div>
+          </div>
+          <div class="card-footer"><span>Aucune activité n'est obligatoire.</span><button type="submit" class="btn btn-primary">Ajouter mon activité</button></div>
+        </form>
+                <section id="exercices-courts" aria-labelledby="exercices-courts-titre">
+          <div class="section-head section-gap"><h2 id="exercices-courts-titre">Exercices courts</h2></div>
+          <details class="card">
+            <summary>Revenir à ce qui m’entoure</summary>
+            <ol>
+              <li>Regarde autour de toi et choisis trois objets.</li>
+              <li>Remarque la couleur d’un objet, la forme d’un autre et la matière du troisième.</li>
+              <li>Si tu en as envie, remarque un son ou le contact de tes pieds avec le sol.</li>
+            </ol>
+          </details>
+          <details class="card">
+            <summary>Prendre du recul sur une pensée</summary>
+            <ol>
+              <li>Essaie la phrase « Je remarque que j’ai cette pensée ».</li>
+              <li>Laisse-la être là un instant, sans chercher tout de suite à l’expliquer.</li>
+              <li>Choisis ce que tu veux faire ensuite, même si la pensée est encore là.</li>
+            </ol>
+          </details>
+          <details class="card">
+            <summary>Choisir un premier pas</summary>
+            <ol>
+              <li>Nomme en une phrase ce qui te bloque.</li>
+              <li>Repère une chose que tu peux faire maintenant. Par exemple, ouvrir un document ou écrire un message.</li>
+              <li>Fais ce premier pas ou note-le pour plus tard.</li>
+            </ol>
+          </details>
+        </section>
+<section id="catalogue-exercices" class="catalogue-exercices" aria-labelledby="catalogue-title">
+  <h2 id="catalogue-title" tabindex="-1">Exercices au poids du corps</h2>
+  <label for="catalogue-search">Chercher un exercice</label>
+  <input id="catalogue-search" type="search" placeholder="Pompes, abdos, squats…" autocomplete="off">
+  <div class="catalogue-shortcuts">
+    <button type="button" class="btn btn-ghost" data-catalogue-recherche="Abdos">Abdos et gainage</button>
+    <button type="button" class="btn btn-ghost" data-catalogue-recherche="Pompes">Pompes</button>
+  </div>
+  <p id="catalogue-count" class="footnote" role="status"></p>
+  <ul id="catalogue-results" class="catalogue-results"></ul>
+  <button id="catalogue-more" type="button" class="btn btn-ghost" hidden>Afficher plus d’exercices</button>
+  <p class="footnote catalogue-credit">
+    Données d’<a href="https://github.com/rfivesix/OpenExerciseDB" target="_blank" rel="noopener noreferrer">OpenExerciseDB</a>,
+    issues de wger et sélectionnées pour ce catalogue.
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Licence des données CC BY-SA 4.0</a>.
+  </p>
+</section>
+<section class="card carnet-program-link" aria-labelledby="program-link-title">
+          <div><h2 id="program-link-title">Programme guidé</h2><p>Des séances courtes à faire à ton rythme.</p></div>
+          <button class="btn btn-ghost" type="button" data-goto="program">Ouvrir le programme</button>
+        </section></section>
+      <section id="view-program" class="view" aria-labelledby="program-title" hidden><button class="carnet-back" type="button" data-goto="activities">Retour aux repères</button>
+        <div class="intro vignette-intro"><span class="intro-vignette"><svg class="glyph" aria-hidden="true" focusable="false"><use href="#mv-book"/></svg></span><h1 id="program-title">Programme guidé</h1><p>Comprendre. Essayer. Ajuster. Un parcours qui s’adapte à ta journée, sans série à conserver ni résultat à prouver.</p></div>
+        <div class="info-strip">Le parcours est guidé par des écrans. Il ne comprend pas de suivi humain : propose de le revoir avec un professionnel, surtout si tes difficultés sont importantes ou durent.</div>
+        <div id="guide-overview"></div><div id="guide-session" hidden></div>
+      </section>
+      <section id="view-insights" class="view" aria-labelledby="insights-title" hidden>
+        <div class="intro vignette-intro">
+          <span class="intro-vignette"><svg class="glyph" aria-hidden="true" focusable="false"><use href="#mv-chart"/></svg></span>
+          <h1 id="insights-title">Historique</h1>
+          <p>Retrouve les bilans, les activités essayées et les sauvegardes du carnet.</p>
+          </div>
+        <nav class="view-shortcuts" aria-label="Dans le suivi"><a href="#carnet-calendar-title">La semaine</a><a href="#mood-title">Mon humeur</a><a href="#activity-history-title">Mes essais</a><a href="#suivi-donnees">Sauvegardes</a></nav>
+          <section class="carnet-calendar" aria-labelledby="carnet-calendar-title">
+    <header class="carnet-card-heading">
+      <h2 id="carnet-calendar-title" tabindex="-1">La semaine dans mon carnet</h2>
+      <p id="carnet-week-period"></p>
+    </header>
+    <div class="carnet-grid">
+      <div class="carnet-lanes" aria-hidden="true">
+        <span>Humeur</span>
+        <span>Activité</span>
+      </div>
+      <div id="carnet-week" class="carnet-week" role="group" aria-label="Choisir un jour de la semaine"></div>
+    </div>
+    <p id="carnet-week-note" class="carnet-legend"></p>
+    <dl class="carnet-day-summary" aria-label="Relevés du jour sélectionné">
+      <div>
+        <dt>Humeur</dt>
+        <dd id="carnet-mood"></dd>
+      </div>
+      <div>
+        <dt>Activité</dt>
+        <dd id="carnet-movement"></dd>
+      </div>
+    </dl>
+    <button class="btn btn-ghost carnet-open-day" type="button" data-goto="home">Ouvrir cette journée</button>
+  </section>
+
+<h2 class="carnet-history-subheading">Mon parcours</h2>
+        <div class="metric-grid">
+          <div class="card metric"><span>Bilans sur 14 jours</span><strong id="metric-checkins">0</strong></div>
+          <div class="card metric"><span>Petits pas essayés</span><strong id="metric-actions">0</strong></div>
+        </div>
+        <div class="card chart-card">
+          <div class="card-head"><h3 id="mood-title" tabindex="-1">Humeur sur 14 jours</h3><span>De 0 à 4</span></div>
+          <p id="mood-empty" class="footnote">Ton premier bilan fera apparaître un repère ici. Les journées sans saisie restent vides.</p><div id="mood-chart" class="mood-chart" role="group" aria-label="Historique de l’humeur sur 14 jours"></div>
+          <p class="footnote">Seuls les jours renseignés apparaissent en couleur.</p>
+        </div>
+        <div class="card chart-card">
+          <div class="card-head"><h3 id="activity-history-title" tabindex="-1">Mes petits pas</h3></div><div id="activity-history"></div>
+          <p class="footnote">Le chiffre indique ton ressenti avant et après l’activité.</p>
+        </div>
+        <details class="carnet-history-share carnet-entry-options"><summary>Partager mes relevés</summary><div class="card chart-card" id="health-card" hidden>
+            <div class="card-head"><h3>Apple Santé</h3></div>
+            <p>Envoie seulement les dates et les niveaux d’humeur que tu choisis.</p>
+            <button id="open-health" class="btn btn-ghost" type="button" aria-haspopup="dialog">Envoyer mon humeur</button>
+            <p id="health-feedback" class="footnote" role="status"></p>
+          </div>
+          <div class="card chart-card">
+            <div class="card-head"><h3>Résumé à partager</h3></div>
+            <p id="professional-summary" class="summary-text">Aucun bilan pour l’instant.</p>
+            <button id="copy-summary" class="btn btn-ghost" type="button">Copier le résumé</button>
+            <p class="footnote">Le texte copié peut contenir des informations sensibles.</p>
+          </div>
+          </details>
+<section id="suivi-donnees" tabindex="-1" class="followup-data" aria-labelledby="data-title">
+          <div class="section-head section-gap">
+            <div><h2 id="data-title"><svg class="glyph" aria-hidden="true" focusable="false"><use href="#mv-lock"/></svg>Sauvegarder le carnet</h2>
+            <p id="data-location">Tes bilans restent dans ce navigateur. Le fichier de sauvegarde peut être protégé par mot de passe.</p></div>
+          </div>
+          <p id="storage-status" class="status-text"></p>
+<div class="carnet-activity-backup">
+            <div><h3>Séances et récupération</h3><p>Exporte ou restaure tes séances enregistrées.</p></div>
+            <button type="button" class="btn btn-ghost" data-goto="movement" data-carnet-anchor="backup-options">Sauvegarde activité</button>
+          </div>
+          <div class="card settings-card">
+            <h3>Humeur et activités personnelles</h3>
+            <p>Garde le mot de passe du fichier .mvx pour le restaurer. Un import remplace les données après confirmation.</p>
+            <div class="action-links">
+              <button id="export-encrypted" class="btn btn-primary" type="button">Exporter avec mot de passe</button>
+              <label class="btn btn-ghost file-label" for="import-encrypted">Importer un .mvx</label>
+              <input id="import-encrypted" class="visually-hidden" type="file" accept=".mvx,application/json">
+            </div>
+            <details class="followup-options">
+              <summary>Sauvegarde JSON sans mot de passe</summary>
+              <p>Un fichier JSON est lisible sans mot de passe.</p>
+              <div class="action-links">
+                <button id="export-data" type="button" class="btn btn-ghost">Exporter en JSON</button>
+                <label class="btn btn-ghost file-label" for="import-data">Importer un JSON</label>
+                <input id="import-data" class="visually-hidden" type="file" accept="application/json,.json">
+              </div>
+            </details>
+          </div>
+          <details class="card settings-card danger-zone">
+            <summary>Effacer les données locales</summary>
+            <p>Supprime tes bilans, tes activités et ton plan de soutien. Une sauvegarde est nécessaire pour les récupérer.</p>
+            <button id="delete-data" type="button" class="btn btn-danger">Tout effacer</button>
+          </details>
+          <details class="card settings-card">
+            <summary>À propos et sources</summary>
+            <p>Outil d’auto-observation sans évaluation clinique. Il ne pose pas de diagnostic et ne remplace pas un suivi professionnel.</p>
+            <button class="btn btn-ghost" type="button" data-guide-sources>Lire le dossier scientifique</button>
+            <p class="footnote"><a href="https://www.who.int/fr/news-room/fact-sheets/detail/depression" target="_blank" rel="noopener noreferrer">OMS</a> · <a href="https://www.nice.org.uk/guidance/ng222/chapter/Recommendations" target="_blank" rel="noopener noreferrer">NICE</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/35048835/" target="_blank" rel="noopener noreferrer">Plans de sécurité</a> · <a href="https://sante.gouv.fr/prevention-en-sante/sante-mentale/la-prevention-du-suicide/article/que-faire-et-a-qui-s-adresser-face-a-une-crise-suicidaire" target="_blank" rel="noopener noreferrer">Ministère de la Santé</a></p>
+          </details>
+        </section>
+      </section>
+      <section id="view-difficult" class="view" aria-labelledby="difficult-title" hidden>
+        <div class="intro vignette-intro"><span class="intro-vignette"><svg class="glyph" aria-hidden="true" focusable="false"><use href="#mv-heart"/></svg></span><p class="eyebrow">MODE MINIMUM</p><h1 id="difficult-title">Quand c'est trop lourd<span class="period">.</span></h1><p>Ici, aucun objectif de productivité. L'essentiel est ta sécurité et le soutien accessible maintenant.</p></div>
+        <div class="urgent-card"><h2><svg class="glyph" aria-hidden="true" focusable="false"><use href="#mv-shield"/></svg>Si tu risques de te faire du mal maintenant</h2><p>Ne reste pas seul·e, éloigne-toi si possible de ce qui pourrait servir à te blesser, et contacte immédiatement une aide humaine.</p><div class="action-links"><a class="btn btn-alert" href="tel:15">Appeler le 15 · SAMU</a><a class="btn btn-alert-outline" href="tel:112">Appeler le 112</a></div></div>
+        <div class="card help-card"><h2>Tu as des idées suicidaires ou tu as besoin de parler ?</h2><p>Le <strong>3114</strong> est gratuit, accessible en France 24 h/24 et 7 j/7, y compris avant une situation d'urgence.</p><a class="btn btn-primary" href="tel:3114?oai_link_source=model_response_hotline">Appeler le 3114</a><p class="footnote"><a href="https://3114.fr/?oai_link_source=model_response_hotline" target="_blank" rel="noopener noreferrer">Site du 3114</a> · L’app n’appelle personne automatiquement.</p></div>
+        <div class="info-strip"><strong>Besoin d’une urgence accessible ?</strong> En France, le <a href="https://www.urgence114.fr/" target="_blank" rel="noopener noreferrer">114</a> est accessible aux personnes sourdes, malentendantes et aphasiques. Les liens et appels nécessitent un réseau.</div><div class="section-head section-gap"><div><h2>Trois possibilités, pas trois obligations</h2></div></div>
+        <div class="simple-steps"><div class="card"><span class="step-num">01</span><h3>Me mettre dans un lieu plus sûr</h3><p>Si possible, changer de pièce, rejoindre un proche ou m'éloigner d'une situation qui me met en danger.</p></div><div class="card"><span class="step-num">02</span><h3>Réduire la prochaine difficulté</h3><p>Boire un verre d'eau, prendre une couverture, diminuer les stimulations ou me poser 2 minutes.</p></div><div class="card"><span class="step-num">03</span><h3>Demander une présence</h3><p>Dire simplement à quelqu'un : « Je traverse un moment difficile. Est-ce que tu peux rester avec moi ou m'appeler ? »</p></div></div>
+        <div class="section-head section-gap"><div><h2>Si des images ou pensées deviennent envahissantes</h2></div></div>
+        <div class="card help-card"><p>Tu peux reconnaître « une pensée vient d'apparaître » sans la suivre ou l'analyser. Essaye ensuite une action très courte qui te reconnecte à ton environnement ou à une personne de confiance. Si ton sentiment de sécurité diminue, demande immédiatement une aide humaine.</p><button class="btn btn-ghost" data-goto="activities" type="button">Voir les exercices doux</button></div>
+        <div class="section-head section-gap"><div><h2>Mon plan personnel de soutien</h2><p>Facultatif. Il reste sur cet appareil.</p></div></div>
+        <form id="safety-form" class="card safety-form" autocomplete="off"><label for="warning-signs">Mes signes d'alerte</label><textarea id="warning-signs" rows="2" maxlength="500" placeholder="Ex. : je m'isole, je ne réponds plus..."></textarea><label for="helps-me">Ce qui m'aide à tenir les prochaines minutes</label><textarea id="helps-me" rows="2" maxlength="500" placeholder="Ex. : rejoindre une personne, changer de pièce..."></textarea><label for="safe-environment">Comment rendre mon environnement plus sûr ?</label><textarea id="safe-environment" rows="2" maxlength="500" placeholder="Ex. : rejoindre un lieu partagé, confier temporairement des objets préoccupants à une personne de confiance. Pas besoin de détailler lesquels."></textarea><label for="people-places">Personnes ou lieux qui m'apportent du soutien</label><textarea id="people-places" rows="2" maxlength="300" placeholder="Ex. : appeler un proche, aller chez un ami..."></textarea><div class="form-grid"><div><label for="contact-name">Personne de confiance</label><input id="contact-name" type="text" maxlength="80" placeholder="Prénom ou nom"></div><div><label for="contact-phone">Numéro de téléphone</label><input id="contact-phone" type="tel" maxlength="30" placeholder="06… ou +33…" inputmode="tel"></div></div><div class="form-grid"><div><label for="professional-name">Professionnel ou structure de suivi</label><input id="professional-name" type="text" maxlength="80" placeholder="Psychologue, psychiatre, CMP…"></div><div><label for="professional-phone">Numéro de suivi (facultatif)</label><input id="professional-phone" type="tel" maxlength="30" inputmode="tel" placeholder="Numéro du cabinet"></div></div><div class="card-footer"><span>Un proche ne remplace pas les secours en cas de danger immédiat.</span><button type="submit" class="btn btn-primary">Enregistrer mon plan</button></div></form>
+        <div id="trusted-contact" class="trusted-contact" hidden></div>
+        <div id="professional-contact" class="trusted-contact" hidden></div>
+      </section>
+    </main>
+  </div>
+  <nav class="mobile-nav" aria-label="Navigation du carnet"><button class="mobile-tab" type="button" data-view="home"><svg class="glyph" aria-hidden="true"><use href="#mv-book"/></svg><span>Mon carnet</span></button><button class="mobile-tab" type="button" data-view="activities"><svg class="glyph" aria-hidden="true"><use href="#mv-sprout"/></svg><span>Mes repères</span></button><button class="mobile-tab" type="button" data-view="insights"><svg class="glyph" aria-hidden="true"><use href="#mv-chart"/></svg><span>Historique</span></button></nav>
+  <dialog id="health-dialog" class="appearance-dialog" aria-labelledby="health-title">
+    <h2 id="health-title">Humeur dans Apple Santé</h2>
+    <p>Seuls la date et le niveau d’humeur des bilans enregistrés sont transmis.</p>
+    <form id="health-form">
+      <label for="health-period">Période</label>
+      <select id="health-period"><option value="today">Aujourd’hui</option><option value="recent">14 derniers jours</option><option value="all">Tout l’historique</option></select>
+      <p id="health-count" role="status"></p>
+      <div class="action-links"><button id="close-health" class="btn btn-ghost" type="button">Fermer</button><button id="send-health" class="btn btn-primary" type="submit">Envoyer à Santé</button></div>
+    </form>
+  </dialog>
+  <dialog id="appearance-dialog" class="appearance-dialog" aria-labelledby="appearance-title">
+    <h2 id="appearance-title">Apparence</h2>
+    <p>Choisis le thème de Mieux vivre.</p>
+    <label for="appearance-select">Thème</label>
+    <select id="appearance-select"><option value="system">Comme l’iPhone</option><option value="light">Clair</option><option value="dark">Sombre</option></select>
+    <button id="appearance-close" class="btn btn-ghost" type="button">Fermer</button>
+  </dialog>
+  <dialog id="reflection-dialog" aria-labelledby="dialog-title"><form method="dialog" id="reflection-form" class="dialog-form"><div class="dialog-top"><p class="eyebrow">OBSERVER, SANS JUGER</p><button id="close-dialog" type="button" class="icon-button" aria-label="Fermer">×</button></div><h2 id="dialog-title">Mon petit pas</h2><p>Le but n'est pas de constater un progrès immédiat, simplement de remarquer ce qui s'est passé.</p><div class="field"><div class="range-top"><label for="before-mood">Humeur avant</label><output id="before-value" for="before-mood">Moyenne</output></div><input id="before-mood" type="range" min="0" max="4" value="2"></div><div class="field"><div class="range-top"><label for="after-mood">Humeur après</label><output id="after-value" for="after-mood">Moyenne</output></div><input id="after-mood" type="range" min="0" max="4" value="2"></div><label for="reflection-note">Ce que j'ai remarqué (facultatif)</label><textarea id="reflection-note" maxlength="300" rows="3" placeholder="Ex. : difficile de commencer, mais j'ai essayé..."></textarea><div class="dialog-actions"><button type="button" class="btn btn-ghost" id="cancel-dialog">Annuler</button><button type="submit" class="btn btn-primary">Enregistrer cet essai</button></div></form></dialog>
+  <dialog id="crypto-dialog" aria-labelledby="crypto-title"><form id="crypto-form" class="dialog-form" autocomplete="off"><div class="dialog-top"><p class="eyebrow">PROTÉGER MA SAUVEGARDE</p><button id="crypto-close" type="button" class="icon-button" aria-label="Fermer la saisie du mot de passe">×</button></div><h2 id="crypto-title">Mot de passe de sauvegarde</h2><p id="crypto-instructions"></p><label for="crypto-password">Mot de passe</label><input id="crypto-password" type="password" autocomplete="off" maxlength="256" aria-describedby="crypto-instructions crypto-error" required><div id="crypto-repeat-row"><label for="crypto-repeat">Confirmer le mot de passe</label><input id="crypto-repeat" type="password" autocomplete="off" maxlength="256" aria-describedby="crypto-error"></div><p id="crypto-error" role="alert"></p><button class="btn btn-primary" type="submit">Continuer</button></form></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
